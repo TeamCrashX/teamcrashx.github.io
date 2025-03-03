@@ -1,7 +1,7 @@
 -------------
 name="CrashX full"
 version="1.0"
-url="https://www.dropbox.com/scl/fi/9x7r7q8o3xb7hibijyv2z/crashxfull25.zip?rlkey=fgwnhjfbdloojlb9z53v4g0ce&st=46srqsic&dl=1"
+url="https://www.dropbox.com/scl/fi/nyy2evqs6kpnlatpo0ey3/CrashX1Full.zip?rlkey=fewcjfr9igd4a76yjia0sj5hq&st=p7s8hqmm&dl=1"
 minor="http://"
 gui="http://"
 kodi="21.1"
