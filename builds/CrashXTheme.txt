@@ -13,7 +13,7 @@ adult="no"
 description="CrashX Theme"
 
 name="CrashX Team" 
-url="https://www.dropbox.com/scl/fi/msdzhshj9pvfjklpi6btr/dscrashv3gui.zip?rlkey=43p14nhotmerle70ztq7l8ptw&st=g11x52yg&dl=1" 
+url="https://www.dropbox.com/scl/fi/tntatwdhg6078niq3fxu0/CrashX1Gui.zip?rlkey=74afzqou0ao8wrfcevaisi0ac&st=6n5fmrmg&dl=1" 
 icon="https://" 
 fanart="https://" 
 adult="no" 
