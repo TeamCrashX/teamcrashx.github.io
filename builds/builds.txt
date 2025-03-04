@@ -1,7 +1,7 @@
 -------------
 name="CrashX full"
 version="1.0"
-url="https://www.dropbox.com/scl/fi/nyy2evqs6kpnlatpo0ey3/CrashX1Full.zip?rlkey=fewcjfr9igd4a76yjia0sj5hq&st=p7s8hqmm&dl=1"
+url="https://www.dropbox.com/scl/fi/p7y47mcznzenk6iy4zgt6/CrashXFull.zip?rlkey=ee92w3xdtiee6zws20quj08nl&st=6wa4k9ae&dl=1"
 minor="http://"
 gui="http://"
 kodi="21.1"
@@ -15,7 +15,7 @@ description="No"
 -----------
 name="CrashX Team"
 version="1.0"
-url="https://www.dropbox.com/scl/fi/8l4w6lp5q92ckiv1favw7/CrashX1.zip?rlkey=h52wwpgsfmmb5z0qfu869yvva&st=d2afm1t8&dl=1"
+url="https://www.dropbox.com/scl/fi/l2o68t9x59ei2i8sm5h8d/CrashX.zip?rlkey=16zygzg5sw786uftqjdegecf2&st=v0e59me7&dl=1"
 minor="http://"
 gui="http://"
 kodi="21.1"
