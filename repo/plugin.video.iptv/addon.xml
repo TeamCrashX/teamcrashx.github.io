@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.iptv" name="[COLOR green]CrashX[/COLOR]" version="21.2" provider-name="[COLOR green]CrashX[/COLOR] ">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de">[COLOR green] LIVE-TV, VOD[/COLOR]</summary>
+		<description lang="de"> Wir weisen darauf hin, dass illegale Addons im machen Ländern gegen geltendes Recht verstossen können und strafbar ist. 
+		Die Nutzung und Anwendung dieser Addons obliegt allein bei dem jeweiligen Benutzer des Addons.
+		</description>
+		<license></license>
+		<language>de</language>
+		<forum></forum>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
