@@ -1,6 +1,6 @@
 <addons>
 
-<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.1">
+<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.2">
 	<extension point="xbmc.addon.repository" name="CrashX Repository">
 		<dir minversion="18.9.000" maxversion="21.9.900">
             <info compressed="false">https://teamcrashx.github.io/repo/addons.xml</info>
@@ -813,4 +813,103 @@ Bandel-URL:  [COLORblue]https://t1p.de/[/COLOR][COLORred]CODE[/COLOR]
     </extension>
 </addon>
 
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2023.01.09.0" provider-name="aenema, peno">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Streamlined Utility Tool for Kodi</summary>
+	<description>No Bloatware, no Nonsense! Just Keep your Kodi sharp and clean with this utility tool... Now with a Custom Wizard.</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>-</forum>
+    <source>https://github.com</source>
+    <assets>
+	    <icon>icon.png</icon>
+	    <fanart>fanart.png</fanart>
+    </assets>
+    <news>
+2023.01.09.0
+ - Added AutoClean Cache functionality every x days at a given hour.
+ - Backup always replaced the home folder reference in xml files with special://home
+   Not all addons can handle this replace so it is now possible via a setting to disable this.
+ - Backup Cancel didn't work. This is now fixed.
+
+2023.01.01.0
+ - Fix a fix on 2022.12.28.0
+
+2022.12.28.0
+ - Fix crash with full backup when there are foreign, like Hebrew, characters in xml files
+
+2021.12.19.0
+ - Made kodi 19 (Matrix) compatible.
+
+2021.11.03.0
+- Fix Speedtest crash.
+
+2020.12.19.1
+- The plugin was also installed under Video add-ons. Now it only is in Program add-ons where it belongs
+- Clean removed some files created by Common plugin cache or StorageServer or script.common.plugin.cache at kodi startup.
+  This resulted in breaking cache functionality of kodi
+- Upload kodi log file to pastebin didn't always work and the first bytes were binary characters
+- Made all decode calls UTF-8
+- Improved ADVANCED SETTINGS(BUFFER SIZE) functionality
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.skinswitcher" 
+	     name="Skin Switcher" 
+	     version="1.0.3" 
+	     provider-name="Surfacingx, OpenELEQ, Fire TV Guru, X">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+	</assets>
+    <summary lang="en">-</summary>
+    <description lang="en">Choose a skin.</description>
+    <disclaimer lang="en">.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2023.2.30" provider-name="Slam, Diggz|HSK-FIX">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.future"/>
+        <import addon="script.module.mutagen"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.service" library="playerMP3.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>A music streaming Collection.</summary>
+        <description>Diggz MP3 Streams Kodi 19 conversion by Slam</description>
+        <news>2021.0.4 - Fixed Settings, 2021.0.3 - Bugfixes. Enjoy!</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+	
 </addons>
