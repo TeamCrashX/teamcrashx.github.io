@@ -1,9 +1,0 @@
-00:1a:79:a3:b7:88|http://onfireboxtv.com/c/
-00:1a:79:b5:c7:93|http://onfireboxtv.com/c/
-00:1a:79:a3:6b:50|http://onfireboxtv.com/c/
-00:1a:79:ba:9a:1d|http://onfireboxtv.com/c/
-00:1a:79:be:d3:7d|
-00:1a:79:aa:b9:53|
-00:1a:79:b0:6b:cf|
-00:11:22:33:44:55|http://portal1.example.com
-00:11:22:33:44:66|http://portal2.example.com
