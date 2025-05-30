@@ -911,5 +911,25 @@ Bandel-URL:  [COLORblue]https://t1p.de/[/COLOR][COLORred]CODE[/COLOR]
     </extension>
 </addon>
 
+<addon id="plugin.CrashXM3U.Video" version="1.0.0" name="CrashX M3U Portal" provider-name="TeamCrashX">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.27.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="m3uline.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Plays M3U playlist video/music streams</summary>
+        <description lang="en">Supports various M3U formats including m3u m3u_plus</description>
+		<platform>all</platform>
+        <language>de</language>
+		<license>GNU GENERAL PUBLIC LICENSE, 30 Mai 2024</license>
+		<assets>
+		<icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>	
+		</assets>
+    </extension>
+</addon>
 	
 </addons>
