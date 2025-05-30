@@ -926,8 +926,8 @@ Bandel-URL:  [COLORblue]https://t1p.de/[/COLOR][COLORred]CODE[/COLOR]
         <language>de</language>
 		<license>GNU GENERAL PUBLIC LICENSE, 30 Mai 2024</license>
 		<assets>
-		<icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>	
+			<icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>	
 		</assets>
     </extension>
 </addon>
