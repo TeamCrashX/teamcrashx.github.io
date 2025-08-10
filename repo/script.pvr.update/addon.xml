@@ -1,0 +1,23 @@
+
+<addon id="script.pvr.update"
+       name="PVR MAC"
+       version="1.0"
+       provider-name="Team CrashX">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="pvr.stalker" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="update.py"/>
+	
+    <extension point="xbmc.addon.metadata">
+        <summary>Aktualisiert MAC-Adresse im PVR Stalker</summary>
+        <description>Ruft eine MAC-Adresse ab und trägt sie automatisch in die PVR Stalker Konfiguration ein.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/icon.png</screenshot>
+        </assets>
+    </extension>
+</addon>
