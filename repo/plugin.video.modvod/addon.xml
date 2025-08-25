@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.modvod" name="TV Client CrashX" version="1.9.0" provider-name="rickey">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests" version="2.27.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service_entry.py"/>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary lang="en_GB">TV Client CrashX</summary>
+		<description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
+		<license>GPL-3.0-or-later</license>
+		<language>en</language>
+		<source>https://github.com/rickeylohia/plugin.video.stalkervod</source>
+		<website>https://github.com/rickeylohia/plugin.video.stalkervod</website>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<icon>resources/media/fanart.jpg</icon>
+			<screenshot>resources/media/screenshot_1.png</screenshot>
+			<screenshot>resources/media/screenshot_2.png</screenshot>
+			<screenshot>resources/media/screenshot_3.png</screenshot>
+			<screenshot>resources/media/screenshot_4.png</screenshot>
+		</assets>
+		<news>
+v1.0.0  (2024-07-13)
+- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.
+If using kodi Add to Favourites option, existing Favourites link would break.
+Ability to use Portal Favorite option for both VOD and TV Channels
+Add support for UpNext addon.
+
+v1.1.0  (2025-07-26)
+- Add search to directory listing for TV and VOD
+
+v1.2.0  (2025-08-06)
+- Fix TV stream issue for portal with use_http_tmp_link and use_load_balancing as false
+		</news>
+	</extension>
+</addon>
