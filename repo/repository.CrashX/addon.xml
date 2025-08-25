@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.3">
+<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.4">
 	<extension point="xbmc.addon.repository" name="CrashX Repository">
 		<dir minversion="18.9.000" maxversion="21.9.900">
             <info compressed="false">https://teamcrashx.github.io/repo/addons.xml</info>
