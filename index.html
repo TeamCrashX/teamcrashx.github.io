@@ -1,50 +1,197 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
-<meta name="description" content="/repo/"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TeamCrashX</title>
+  <style>
+    :root {
+      --bg-color: rgba(0,0,0,0.7);
+      --text-color: white;
+      --link-color: #00ff88;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("https://github.com/TeamCrashX/teamcrashx.github.io/blob/CrashX/repo/repository.CrashX/fanart.jpeg?raw=true") no-repeat center center fixed;
+      background-size: cover;
+      color: var(--text-color);
+      display: flex;
+    }
+
+    /* Sidebar */
+    aside {
+      width: 280px;
+      background: var(--bg-color);
+      padding: 1em;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      overflow-y: auto;
+      border-right: 2px solid var(--link-color);
+    }
+
+    aside h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    aside a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    aside a:hover {
+      text-decoration: underline;
+    }
+
+    aside pre {
+      text-align: left;
+      background: none;
+      padding: 0;
+      margin: 0;
+      font-size: 0.95em;
+      line-height: 1.5em;
+    }
+
+    /* Content Bereich */
+    main {
+      margin-left: 280px;
+      flex: 1;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-color);
+      padding: 0.8em 1.5em;
+      position: fixed;
+      top: 0;
+      left: 280px;
+      right: 0;
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: var(--text-color);
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--link-color);
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: var(--bg-color);
+      padding: 4em 2em;
+    }
+
+    .hero h1, .hero h2 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+
+    .btn {
+      background: var(--link-color);
+      color: #000;
+      padding: 0.8em 1.5em;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 0.5em;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-	<table>
-		<tbody>
-			<tr>
-				<th><a href="?C=N;O=D">Name</a></th>	
-			</tr>
-			<tr>
-				<th colspan="5"><hr></th>
-			</tr>
-			<tr>
-			    <td align="center">  <a href="../">Parent Directory</a> </td>
-			</tr>
-			<tr>
-				<th colspan="5"><hr></th>
-			</tr>
-			<tr>
-				<td><a href="plugin.program.CrashX.Wizard/">plugin.program.CrashX.Wizard/</a></td>
-			</tr>
-			<tr>
-				<td><a href="plugin.video.iptv/">plugin.video.iptv/</a></td>
-			</tr>
-			<tr>
-				<td><a href="repository.CrashX/">repository.CrashX/</a></td>
-			</tr>
-			<tr>
-				<td><a href="repository.kodinerds/">repository.kodinerds/</a></td>
-			</tr>
-			<tr>
-				<td><a href="repository.xbmc.org/">repository.xbmc.org/</a></td>
-			</tr>
-			<tr>
-				<td><a href="script.get.build_installer/">script.get.build_installer/</a></td>
-			</tr>
-		        <tr>
-				<td><a href="plugin.CrashXM3U.Video/">plugin.CrashXM3U.Video/</a></td>
-			</tr>
-			<tr>
-				<td><a href="addons.xml">addons.xml</a></td>
-			</tr>
-			<tr>
-				<td><a href="addons.xml.md5">addons.xml.md5</a></td>
-			</tr>
-		</tbody>
-	</table>
+  <!-- Linke Sidebar -->
+  <aside>
+    <h2>📂 Repository</h2>
+    <pre>
+<a href="https://teamcrashx.github.io/">teamcrashx.github.io/</a>
+├── <a href="https://teamcrashx.github.io/repo/">repo/</a>
+│   └── <a href="https://teamcrashx.github.io/repo/repository.CrashX/">repository.CrashX/</a>
+    </pre>
+  </aside>
+
+  <!-- Hauptinhalt -->
+  <main>
+    <nav>
+      <div>
+        <a href="#home" style="text-decoration:none;">
+          <!-- Grünes SVG-Logo -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 600 150">
+            <style>
+              .title { 
+                font: bold 60px 'Arial Black', sans-serif; 
+                fill: url(#grad1);
+                letter-spacing: 2px;
+              }
+            </style>
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#00ff88; stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#006633; stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <text x="20" y="100" class="title">TeamCrashX</text>
+          </svg>
+        </a>
+      </div>
+      <div>
+        <a href="#home">Start</a>
+        <a href="https://teamcrashx.github.io" target="_blank">Repository</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </nav>
+
+    <!-- Start -->
+    <section class="hero" id="home">
+      <h1>Willkommen bei TeamCrashX</h1>
+      <p>Offizielle Homepage auf GitHub Pages</p>
+      <div>
+        <a href="https://teamcrashx.github.io" target="_blank">
+          <button class="btn">Zum Repository</button>
+        </a>
+        <a href="#kontakt">
+          <button class="btn">Kontakt</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="hero">
+      <h2>Kontakt</h2>
+      <p>Du kannst uns über GitHub erreichen:</p>
+      <a href="https://github.com/TeamCrashX" target="_blank">
+        <button class="btn">TeamCrashX auf GitHub</button>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
