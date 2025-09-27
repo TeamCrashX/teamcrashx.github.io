@@ -519,7 +519,7 @@ v1.2.0  (2025-08-06)
 	</extension>
 </addon>
 
-<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.4">
+<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.5">
 	<extension point="xbmc.addon.repository" name="CrashX Repository">
 		<dir minversion="18.9.000" maxversion="21.9.900">
             <info compressed="false">https://teamcrashx.github.io/repo/addons.xml</info>
@@ -1163,6 +1163,52 @@ Bandel-URL:  [COLORblue]https://t1p.de/[/COLOR][COLORred]CODE[/COLOR]
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+
+<addon id="plugin.video.tvbvb"
+version="0.0.8"
+name="BVB TV"
+provider-name="Thunderv3">
+<requires>
+  <import addon="script.module.requests" />
+  <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.inputstreamhelper" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="entry.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <license>Freeware</license>
+  <platform>all</platform>
+  <summary lang="de">BVB TV Live</summary>
+
+  <description lang="de_DE">Borussia Dortmund BVB TV addon für Kodi.</description>
+  <disclaimer lang="de_DE">Die Software wird ohne Gewährleistung jeglicher Art, bereitgestellt. 
+  Wiedergabe von der officellen Seite des BVB.de  </disclaimer>
+
+  <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.jpeg</fanart>
+  </assets>
+  <email></email>
+  <news>Demo release 
+  Initial no.login</news>
+
+</extension>
+</addon>
+
+<addon id="service.autoinstaller" name="Auto Installer Service" version="1.0.3" provider-name="Slam">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Automatically install addons when Kodi starts.</summary>
+		<description lang="en_GB">Automatically install addons when Kodi starts.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+	</extension>
 </addon>
 	
 </addons>
