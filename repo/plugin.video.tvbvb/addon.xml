@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tvbvb"
+version="0.0.8"
+name="BVB TV"
+provider-name="Thunderv3">
+<requires>
+  <import addon="script.module.requests" />
+  <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.inputstreamhelper" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="entry.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <license>Freeware</license>
+  <platform>all</platform>
+  <summary lang="de">BVB TV Live</summary>
+
+  <description lang="de_DE">Borussia Dortmund BVB TV addon für Kodi.</description>
+  <disclaimer lang="de_DE">Die Software wird ohne Gewährleistung jeglicher Art, bereitgestellt. 
+  Wiedergabe von der officellen Seite des BVB.de  </disclaimer>
+
+  <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.jpeg</fanart>
+  </assets>
+  <email></email>
+  <news>Demo release 
+  Initial no.login</news>
+
+</extension>
+</addon>
