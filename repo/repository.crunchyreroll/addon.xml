@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.crunchyreroll" name="Crunchyreroll kodi repo" version="1.0.0" provider-name="Xtero">
+    <extension point="xbmc.addon.repository" name="Crunchyreroll kodi repo">
+        <dir minversion="19.0">
+            <info compressed="true">https://reroll.is-cool.dev/repo/addons.xml.gz</info>
+            <checksum>https://reroll.is-cool.dev/repo/addons.xml.gz.md5</checksum>
+            <datadir zip="true">https://reroll.is-cool.dev/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install CrunchyREroll Kodi repo</summary>
+        <description>Download the last version of the CrunchyREroll plugin</description>
+        <platform>all</platform>
+    </extension>
+</addon>
