@@ -1284,7 +1284,7 @@ v1.0.25 (marcelveldt)
 		<genre></genre>
 	</extension>
 </addon>
-<?xml version="1.0"?>
+
 <addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.7" provider-name="Kodinerds">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
