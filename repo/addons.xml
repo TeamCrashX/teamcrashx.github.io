@@ -2639,7 +2639,7 @@ Subscription required.</description>
   </extension>
 </addon>
  
-<addon id="plugin.video.modvod" name="TV Client CrashX" version="1.9.0" provider-name="rickey">
+<addon id="plugin.video.modvod" name="TV Client CrashX" version="1.9.1" provider-name="rickey">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
