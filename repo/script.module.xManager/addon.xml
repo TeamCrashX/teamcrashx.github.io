@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.xManager" 
+       name="xManager - xStream Domain Sync" 
+       version="1.0.2" 
+       provider-name="CrashX">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.xstream" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+	<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service_starter.py" start="login"/>
+   <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Professional Domain Manager for xStream</summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xStream</summary>
+    <description lang="en_GB">xManager is an advanced domain synchronization service for xStream. This service automatically changes xStream addon settings. Make sure the remote URL is trustworthy.</description>
+    <description lang="de_DE">xManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xStream. Dieser Service ändert automatisch xStream Addon-Einstellungen. Stelle sicher, dass die Remote-URL vertrauenswürdig ist.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <news>v1.0.0 (2025-12-20)
+- Initiales Release
+- Automatische Domain-Synchronisation
+- Professionelle GUI mit Design
+- Status-Anzeige und Benachrichtigungen
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
