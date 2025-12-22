@@ -3140,7 +3140,7 @@ v1.2.0  (2025-08-06)
 
 <addon id="script.module.xManager" 
        name="xManager - xStream Domain Sync" 
-       version="1.0.2" 
+       version="1.0.3" 
        provider-name="CrashX">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -3169,5 +3169,5 @@ v1.2.0  (2025-08-06)
     </assets>
   </extension>
 </addon>
-	
+
 </addons>
