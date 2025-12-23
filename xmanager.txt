@@ -1,5 +1,0 @@
-{
-        "plugin_aniworld.domain": "aniworld.to",
-	"plugin_api_all.domain": "kinokiste.eu"
-}
-
