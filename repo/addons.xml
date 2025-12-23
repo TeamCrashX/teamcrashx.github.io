@@ -3140,7 +3140,7 @@ v1.2.0  (2025-08-06)
 
 <addon id="script.module.xManager" 
        name="xManager - xStream Domain Sync" 
-       version="1.0.3" 
+       version="1.0.4" 
        provider-name="CrashX">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -3162,6 +3162,15 @@ v1.2.0  (2025-08-06)
 - Automatische Domain-Synchronisation
 - Professionelle GUI mit Design
 - Status-Anzeige und Benachrichtigungen
+---------------------------------------------
+		  v1.0.4 (2025-12-23)
+- Eigene Url zum updaten für Xstream 
+- Beispiel:
+ {
+    "plugin_aniworld.domain": "aktuelle.domain.to",
+	"plugin_api_all.domain": "aktuelle.domain.eu"
+ }
+- Speichern als.txt
     </news>
     <assets>
       <icon>icon.png</icon>
