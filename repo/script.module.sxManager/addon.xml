@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.sxManager" 
+       name="Manager - xShip/XStream Domain Sync" 
+       version="1.0.2" 
+       provider-name="[COLOR green]C[COLOR white]rash[/COLOR][COLOR green]X[/COLOR] / [COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.xship" optional="true"/>
+    <import addon="plugin.video.xstream" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service_starter.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Professional Domain Manager for xShip & xStream</summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xShip & xStream</summary>
+    <description lang="en_GB">sxManager is an advanced domain synchronization service for xShip and xStream. This service automatically manages domain settings for both addons. Make sure the remote URLs are trustworthy.</description>
+    <description lang="de_DE">sxManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xShip und xStream. Dieser Service verwaltet automatisch die Domain-Einstellungen für beide Addons. Stelle sicher, dass die Remote-URLs vertrauenswürdig sind.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+	<website>https://t.me/team_crashx / https://t.me/c/2304581788/12770</website>
+    <news>v1.0. (2025-12-26)
+- Combined sManager and xManager into sxManager
+- Supports both xShip and xStream addons
+- Separate configuration for each addon
+- Backup management for both
+- Automatic domain synchronization
+- Support [COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]-[COLOR black]Crew[/COLOR]
+	</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+			<banner>resources/icon.png</banner>
+			<clearlogo>resources/icon.png</clearlogo>
+			<screenshot>resources/screen1.jpg</screenshot>
+			<screenshot>resources/screen2.jpg</screenshot>
+			<screenshot>resources/screen3.jpg</screenshot>
+			<screenshot>resources/screen4.jpg</screenshot>	  
+    </assets>
+  </extension>
+</addon>
