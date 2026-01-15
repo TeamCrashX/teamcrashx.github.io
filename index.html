@@ -1,197 +1,632 @@
-<!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TeamCrashX</title>
-  <style>
-    :root {
-      --bg-color: rgba(0,0,0,0.7);
-      --text-color: white;
-      --link-color: #00ff88;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: url("https://github.com/TeamCrashX/teamcrashx.github.io/blob/CrashX/repo/repository.CrashX/fanart.jpeg?raw=true") no-repeat center center fixed;
-      background-size: cover;
-      color: var(--text-color);
-      display: flex;
-    }
-
-    /* Sidebar */
-    aside {
-      width: 280px;
-      background: var(--bg-color);
-      padding: 1em;
-      height: 100vh;
-      position: fixed;
-      left: 0;
-      top: 0;
-      overflow-y: auto;
-      border-right: 2px solid var(--link-color);
-    }
-
-    aside h2 {
-      margin-top: 0;
-      font-size: 1.5em;
-      text-align: center;
-    }
-
-    aside a {
-      color: var(--link-color);
-      text-decoration: none;
-    }
-
-    aside a:hover {
-      text-decoration: underline;
-    }
-
-    aside pre {
-      text-align: left;
-      background: none;
-      padding: 0;
-      margin: 0;
-      font-size: 0.95em;
-      line-height: 1.5em;
-    }
-
-    /* Content Bereich */
-    main {
-      margin-left: 280px;
-      flex: 1;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: var(--bg-color);
-      padding: 0.8em 1.5em;
-      position: fixed;
-      top: 0;
-      left: 280px;
-      right: 0;
-      backdrop-filter: blur(5px);
-      z-index: 1000;
-    }
-
-    nav a {
-      color: var(--text-color);
-      text-decoration: none;
-      margin: 0 1em;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: var(--link-color);
-    }
-
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background: var(--bg-color);
-      padding: 4em 2em;
-    }
-
-    .hero h1, .hero h2 {
-      font-size: 3em;
-      margin-bottom: 0.5em;
-    }
-
-    .hero p {
-      font-size: 1.2em;
-      margin-bottom: 1.5em;
-    }
-
-    .btn {
-      background: var(--link-color);
-      color: #000;
-      padding: 0.8em 1.5em;
-      border: none;
-      border-radius: 8px;
-      font-size: 1em;
-      cursor: pointer;
-      font-weight: bold;
-      margin: 0.5em;
-      transition: transform 0.2s, background 0.3s;
-    }
-
-    .btn:hover {
-      background: white;
-      transform: scale(1.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrashX Builds</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        header:after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #00ff00, #00cc00);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #00ff00, #00cc00);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: rgba(20, 20, 30, 0.8);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 255, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+            border-color: rgba(0, 255, 0, 0.3);
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .card-title {
+            font-size: 1.8rem;
+            color: #00ff00;
+        }
+        
+        .card-badge {
+            background: #00aa00;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .badge-adult {
+            background: #ff4444;
+        }
+        
+        .badge-kids {
+            background: #4488ff;
+        }
+        
+        .badge-sports {
+            background: #ffaa00;
+        }
+        
+        .badge-test {
+            background: #888;
+        }
+        
+        .build-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 3px solid #00ff00;
+        }
+        
+        .info-label {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-weight: bold;
+            color: #fff;
+            word-break: break-all;
+        }
+        
+        .description {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(0, 30, 0, 0.2);
+            border-radius: 6px;
+            border-left: 3px solid #00aa00;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #00aa00, #008800);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-right: 10px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(90deg, #00cc00, #00aa00);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(90deg, #333, #222);
+        }
+        
+        .btn-secondary:hover {
+            background: linear-gradient(90deg, #444, #333);
+        }
+        
+        .btn-downloads {
+            background: linear-gradient(90deg, #0088ff, #0066cc);
+        }
+        
+        .btn-downloads:hover {
+            background: linear-gradient(90deg, #0099ff, #0077dd);
+        }
+        
+        .downloads-section {
+            margin-top: 40px;
+            background: rgba(10, 10, 20, 0.9);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 25px;
+            color: #00ff00;
+            text-align: center;
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .download-card {
+            background: rgba(30, 30, 40, 0.8);
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .download-card:hover {
+            background: rgba(40, 40, 50, 0.9);
+            transform: translateY(-5px);
+        }
+        
+        .download-icon {
+            font-size: 3rem;
+            color: #00ff00;
+            margin-bottom: 15px;
+        }
+        
+        .download-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .category-header {
+            font-size: 2rem;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(0, 255, 0, 0.3);
+            color: #00ff00;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+        
+        .filter-btn {
+            background: rgba(40, 40, 50, 0.7);
+            color: #ccc;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn.active, .filter-btn:hover {
+            background: #00aa00;
+            color: white;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .builds-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        
+        @media (max-width: 768px) {
+            .builds-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .card-title {
+                font-size: 1.5rem;
+            }
+            
+            .download-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .no-builds {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2rem;
+            color: #888;
+            grid-column: 1 / -1;
+        }
+        
+        .theme-link {
+            color: #00ff00;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        
+        .theme-link:hover {
+            text-decoration: underline;
+        }
+        
+        .adult-warning {
+            background: rgba(255, 50, 50, 0.1);
+            border: 1px solid rgba(255, 50, 50, 0.3);
+            border-left: 3px solid #ff4444;
+        }
+        
+        .search-box {
+            margin: 20px 0 30px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .search-input {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 20px;
+            border-radius: 6px;
+            background: rgba(30, 30, 40, 0.8);
+            border: 1px solid rgba(0, 255, 0, 0.2);
+            color: white;
+            font-size: 1rem;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+        }
+    </style>
 </head>
 <body>
-  <!-- Linke Sidebar -->
-  <aside>
-    <h2>📂 Repository</h2>
-    <pre>
-<a href="https://teamcrashx.github.io/">teamcrashx.github.io/</a>
-├── <a href="https://teamcrashx.github.io/repo/">repo/</a>
-│   └── <a href="https://teamcrashx.github.io/repo/repository.CrashX/">repository.CrashX/</a>
-    </pre>
-  </aside>
-
-  <!-- Hauptinhalt -->
-  <main>
-    <nav>
-      <div>
-        <a href="#home" style="text-decoration:none;">
-          <!-- Grünes SVG-Logo -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 600 150">
-            <style>
-              .title { 
-                font: bold 60px 'Arial Black', sans-serif; 
-                fill: url(#grad1);
-                letter-spacing: 2px;
-              }
-            </style>
-            <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#00ff88; stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#006633; stop-opacity:1" />
-              </linearGradient>
-            </defs>
-            <text x="20" y="100" class="title">TeamCrashX</text>
-          </svg>
-        </a>
-      </div>
-      <div>
-        <a href="#home">Start</a>
-        <a href="https://teamcrashx.github.io" target="_blank">Repository</a>
-        <a href="#kontakt">Kontakt</a>
-      </div>
-    </nav>
-
-    <!-- Start -->
-    <section class="hero" id="home">
-      <h1>Willkommen bei TeamCrashX</h1>
-      <p>Offizielle Homepage auf GitHub Pages</p>
-      <div>
-        <a href="https://teamcrashx.github.io" target="_blank">
-          <button class="btn">Zum Repository</button>
-        </a>
-        <a href="#kontakt">
-          <button class="btn">Kontakt</button>
-        </a>
-      </div>
-    </section>
-
-    <!-- Kontakt -->
-    <section id="kontakt" class="hero">
-      <h2>Kontakt</h2>
-      <p>Du kannst uns über GitHub erreichen:</p>
-      <a href="https://github.com/TeamCrashX" target="_blank">
-        <button class="btn">TeamCrashX auf GitHub</button>
-      </a>
-    </section>
-  </main>
+    <div class="container">
+        <header>
+            <h1>CrashX Builds</h1>
+            <p class="tagline">Offizielle Build-Sammlung für Kodi</p>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" class="search-input" placeholder="Builds suchen...">
+        </div>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Alle Builds</button>
+            <button class="filter-btn" data-filter="32bit">32-Bit Builds</button>
+            <button class="filter-btn" data-filter="64bit">64-Bit Builds</button>
+        <!--    <button class="filter-btn" data-filter="general">Allgemein</button> -->
+            <button class="filter-btn" data-filter="kids">Kids</button>
+            <button class="filter-btn" data-filter="sports">Sports</button>
+        </div>
+        
+        <div id="buildsContainer" class="builds-grid">
+            <!-- Builds werden hier dynamisch geladen -->
+        </div>
+        
+        <div class="downloads-section">
+            <h2 class="section-title">Downloads & Repository</h2>
+            
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3 class="download-title">APK Team_CrashX 32Bit</h3>
+                    <p>Für Android-Geräte mit 32-Bit Architektur</p>
+                    <a href="https://t.me/team_crashx/7/365" class="btn btn-downloads" target="_blank">Download APK</a>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="download-title">APK Team_CrashX 64Bit</h3>
+                    <p>Für moderne Android-Geräte mit 64-Bit Architektur</p>
+                    <a href="https://t.me/team_crashx/7/366" class="btn btn-downloads" target="_blank">Download APK</a>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="download-title">Repository</h3>
+                    <p>Offizielles Repository mit Addons und Updates</p>
+                    <a href="https://teamcrashx.github.io/repo/" class="btn" target="_blank">Repository öffnen</a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Team_CrashX Builds &copy; 2024 | Offizielle Build-Sammlung für Kodi</p>
+            <p style="margin-top: 10px;">Diese Seite zeigt Builds von Team_CrashX <a href="" style="color: #00ff00;"></a> </p>
+        </footer>
+    </div>
+    
+    <script>
+        // Builds-Daten aus der builds.txt
+        const buildsData = [
+            {
+                name: "Valhalla V2",
+                version: "2.4",
+                kodi: "21.2",
+                theme: "",
+                adult: "No",
+                description: "Team GoK -LiveTV-Vavoo-PlutoTV-PVR-Client-TVMediathek",
+                category: "32bit"
+            },
+            {
+                name: "Minions",
+                version: "1.0",
+                kodi: "21.2",
+                adult: "No",
+                description: "Team Kids Build ARD Die_Maus ZDF_Tivi tierwelt Kika ZDF WDR Mediathek",
+                category: "kids" 
+            },
+            {
+                name: "CrashX Flix 1.0",
+                version: "1.0",
+                kodi: "21.2",
+                adult: "No",
+                description: "Team CrashX",
+                category: "32bit"
+            },
+            {
+                name: "TCrashX 1.0",
+                version: "1.0",
+                kodi: "21.2",
+                adult: "No",
+                description: "Team CrashX",
+                category: "32bit"
+            },
+            {
+                name: "CrashX Bundesliga",
+                version: "25.1",
+                kodi: "21.2",
+                adult: "No",
+                description: "CrashX TV Bundesliga",
+                category: "sports"
+            },
+            {
+                name: "In Arbeit Nimbus",
+                version: "0.1",
+                url: "",
+                kodi: "21.2",
+                theme: "",
+                adult: "No",
+                description: "In Arbeit",
+                category: "32bit"
+            },
+            {
+                name: "Valhalla 64Bit",
+                version: "1.0",
+                url: "",
+                kodi: "21.2",
+                adult: "No",
+                description: "Team GOK -Vavoo-xShip-Dmax-PlutoTV-PVR-Client-TVMediathek-BRMedia-",
+                category: "64bit"
+            }
+        ];
+        
+        // Build-Kategorien für Filter
+        const categoryMap = {
+            "general": "Allgemein",
+            "kids": "Kids",
+            "sports": "Sports",
+            "32bit": "32-Bit",
+            "64bit": "64-Bit"
+        };
+        
+        // Badge-Farben basierend auf Kategorie
+        const badgeClasses = {
+            "general": "",
+            "kids": "badge-kids",
+            "sports": "badge-sports",
+            "32bit": "",
+            "64bit": ""
+        };
+        
+        // DOM Elemente
+        const buildsContainer = document.getElementById('buildsContainer');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const searchInput = document.getElementById('searchInput');
+        
+        // Initial alle Builds anzeigen
+        renderBuilds(buildsData);
+        
+        // Filter-Buttons Event Listener
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Aktiven Button markieren
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                filterBuilds(filter);
+            });
+        });
+        
+        // Suchfunktion
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            filterBuildsBySearch(searchTerm);
+        });
+        
+        // Builds filtern nach Kategorie
+        function filterBuilds(filter) {
+            let filteredBuilds;
+            
+            if (filter === 'all') {
+                filteredBuilds = buildsData;
+            } else {
+                filteredBuilds = buildsData.filter(build => {
+                    return build.category === filter;
+                });
+            }
+            
+            renderBuilds(filteredBuilds);
+        }
+        
+        // Builds filtern nach Suchbegriff
+        function filterBuildsBySearch(searchTerm) {
+            if (searchTerm.trim() === '') {
+                // Wenn Suchfeld leer, aktiven Filter anwenden
+                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                filterBuilds(activeFilter);
+                return;
+            }
+            
+            const filteredBuilds = buildsData.filter(build => {
+                return build.name.toLowerCase().includes(searchTerm) || 
+                       build.description.toLowerCase().includes(searchTerm) ||
+                       build.version.toLowerCase().includes(searchTerm);
+            });
+            
+            renderBuilds(filteredBuilds);
+        }
+        
+        // Builds rendern
+        function renderBuilds(builds) {
+            buildsContainer.innerHTML = '';
+            
+            if (builds.length === 0) {
+                buildsContainer.innerHTML = '<div class="no-builds">Keine Builds gefunden</div>';
+                return;
+            }
+            
+            builds.forEach(build => {
+                const buildCard = document.createElement('div');
+                buildCard.className = 'card';
+                
+                // Erwachsenen-Warnung hinzufügen
+                if (build.adult === "Yes") {
+                    buildCard.classList.add('adult-warning');
+                }
+                
+                // Badge basierend auf Kategorie
+                const badgeClass = badgeClasses[build.category] || '';
+                const badgeText = build.category === 'general' ? 'Build' : categoryMap[build.category];
+                
+                // Theme-Link, falls vorhanden
+                const themeLink = build.theme && build.theme !== 'http://' ? 
+                    `<a href="${build.theme}" class="theme-link" target="_blank">Theme öffnen</a>` : 
+                    'Theme verfügbar';
+                
+                // Build-Card HTML
+                buildCard.innerHTML = `
+                    <div class="card-header">
+                        <h3 class="card-title">${build.name}</h3>
+                        <span class="card-badge ${badgeClass}">${badgeText}</span>
+                    </div>
+                    
+                    <div class="build-info">
+                        <div class="info-item">
+                            <div class="info-label">Version</div>
+                            <div class="info-value">${build.version}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Kodi Version</div>
+                            <div class="info-value">${build.kodi}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Erwachseneninhalt</div>
+                            <div class="info-value">${build.adult === "Yes" ? "Ja" : "Nein"}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="description">
+                        <div class="info-label">Beschreibung</div>
+                        <div class="info-value">${build.description}</div>
+                    </div>
+                    
+                    <div style="margin-top: 15px;">
+                        <div class="info-label">Theme</div>
+                        <div class="info-value">${themeLink}</div>
+                    </div>
+                    
+                    <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+                        ${build.url ? `<a href="${build.url}" class="btn" target="_blank">Download Build</a>` : ''}
+                        ${build.info && build.info !== 'http://' ? `<a href="${build.info}" class="btn btn-secondary" target="_blank">Info</a>` : ''}
+                    </div>
+                `;
+                
+                buildsContainer.appendChild(buildCard);
+            });
+        }
+    </script>
 </body>
 </html>
