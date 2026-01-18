@@ -13,13 +13,13 @@
   </extension>
   <extension point="xbmc.service" library="service_starter.py" start="login"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Professional Domain Manager for xShip & xStream</summary>
-    <summary lang="de_DE">Professioneller Domain-Manager für xShip & xStream</summary>
+    <summary lang="en_GB">Professional Domain Manager for xShip and xStream</summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xShip and xStream</summary>
     <description lang="en_GB">sxManager is an advanced domain synchronization service for xShip and xStream. This service automatically manages domain settings for both addons. Make sure the remote URLs are trustworthy.</description>
     <description lang="de_DE">sxManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xShip und xStream. Dieser Service verwaltet automatisch die Domain-Einstellungen für beide Addons. Stelle sicher, dass die Remote-URLs vertrauenswürdig sind.</description>
     <platform>all</platform>
     <license>MIT</license>
-	<website>https://t.me/team_crashx / https://t.me/c/2304581788/12770</website>
+	<website>https://tinyurl.com/tmeCrashX / https://t.me/c/2304581788/12770</website>
     <news>v1.0. (2025-12-26)
 - Combined sManager and xManager into sxManager
 - Supports both xShip and xStream addons
