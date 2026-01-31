@@ -1,0 +1,99 @@
+v1.1.1
+- I added the studio icon Bing Crosby Productions.
+
+v1.1.0
+- I added the studio icons Mendelson Melendez Productions and Well Go Entertainment.
+
+v1.0.9
+- I added five new studios...EXA Entertainment, Fickle Fish, Nagoya TV, New Regency Productions, and Rizzoli Film.
+
+v1.0.8
+- I added an AppleTV+ icon.
+
+v1.0.7
+- I added United Film Distribution Company.
+
+v1.0.6
+- I added Paramount+ (US) to studios.
+
+v1.0.5
+- I added MSG, HBO Max, Paramount+, Paramount Network and TSN to studios.
+
+v0.0.26
+- new logos
+
+v0.0.25
+- new and updated logos
+
+v0.0.24
+- new and updated logos
+
+v0.0.23
+- new and updated logos
+
+v0.0.22
+- new and updated logos
+
+v0.0.21
+- new and updated logos
+
+v0.0.20
+- Added several new and updated logos
+
+v0.0.19
+- Added several new logos
+
+v0.0.18
+- Added several new logos
+
+v0.0.17
+- Added several new logos
+
+v0.0.16
+- Added several new logos
+
+v0.0.15
+- Added several new logos
+
+v0.0.14
+- Added several new logos
+
+v0.0.13
+- Added several new logos
+
+v0.0.12
+- Added several new logos
+
+v0.0.11
+- Added several new logos
+
+v0.0.10
+- Added several new logos
+
+v0.0.9
+- Added several new logos
+
+v0.0.8
+- Added several new logos
+
+v0.0.7
+- Fix potential texture issues
+
+v0.0.6
+- Add info file
+
+v0.0.5
+- add compile flag
+
+v0.0.4
+- Replace corrupt image
+
+v0.0.3
+- Compress into XBT file
+- Added several new logos
+
+v0.0.2
+- Removed duplicate files
+
+v0.0.1
+- Initial release
