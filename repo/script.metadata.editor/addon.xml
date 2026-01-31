@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.metadata.editor" name="Metadata Editor" version="3.0.2" provider-name="sualfred, update/fix by _BJ1">
+<addon id="script.metadata.editor" name="Metadata Editor" version="3.0.1+nexus" provider-name="sualfred, Nexus branch from PvD">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.9.1"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
