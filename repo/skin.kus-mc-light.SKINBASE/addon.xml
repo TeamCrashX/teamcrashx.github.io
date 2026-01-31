@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="skin.kus-mc-light.SKINBASE" version="2.0.0" name="KUS Mediacenter Light (SKINBASE)" provider-name="SGK,SKINBASE, Eddage, Bumpaneer">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="script.skinshortcuts" version="1.1.4"/>
+		<import addon="resource.images.studios.white" version="0.0.28"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
+		<import addon="script.skin.helper.service" version="1.1.43"/>
+		<import addon="script.embuary.helper" version="2.0.8"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">KUS Mediacenter Skin</summary>
+		<summary lang="en">KUS Mediacenter Skin</summary>
+		<description lang="de">Dies ist ein Skin Mod auf Basis des Unity Skins.[CR][CR]Support: [COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Spende: [COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+		<description lang="en">This is a skin mod based on the Unity skin.[CR][CR]Support: [COLORdeepskyblue]https://www.facebook.com/groups/kodiunlimited[/COLOR][CR]Donation: [COLORdeepskyblue]https://www.paypal.me/KodiUnlimited[/COLOR]</description>
+		<disclaimer lang="de">Wenn Sie diesen Skin verwenden oder anpassen möchten, fragen sie vorher bitte den Ersteller.</disclaimer>
+		<disclaimer lang="en">If you want to use or adapt this skin, please ask the creator beforehand.</disclaimer>
+		<platform>all</platform>
+		<license></license>
+		<forum>https://www.facebook.com/groups/kodiunlimited</forum>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
