@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.moviegenreicons.xzener-flat" name="Movie Genre Icons - Xzener's Flat Icons" version="0.0.4" provider-name="Xzener, Gade">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xcener's Flat Movie Genre Icons</summary>
+		<description lang="en">Transparent flat Movie Genre Icons made by Xzener.</description>
+		<platform>all</platform>
+		<news>[B][COLOR=FFFFA500]v0.0.4[/COLOR][/B] - Release date: January 22, 2022[CR]
+• I unpacked the icons and removed the Textures file.
+• I added 73 new genre icons.
+		</news>
+	</extension>
+</addon>
