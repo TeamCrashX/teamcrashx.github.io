@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <addons>
 
- <addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.6">
+<addon id="repository.CrashX" name="CrashX Repository" provider-name="Team CrashX" version="0.0.6">
 	<extension point="xbmc.addon.repository" name="CrashX Repository">
 		<dir minversion="18.9.000" maxversion="21.9.900">
             <info compressed="false">https://teamcrashx.github.io/repo/addons.xml</info>
@@ -1182,7 +1180,7 @@ v1.0.25 (marcelveldt)
   </extension>
 </addon>
  
-    <addon id="repository.mbebe" name="mbebe" version="0.10" provider-name="mbebe">
+<addon id="repository.mbebe" name="mbebe" version="0.10" provider-name="mbebe">
         <extension point="xbmc.addon.repository" name="mbebe">
             <dir>
                 <info compressed="false">https://raw.githubusercontent.com/mbebe/blomqvist/master/zips/addons.xml</info>
@@ -1832,7 +1830,7 @@ v1.0.25 (marcelveldt)
     </extension>
 </addon>
  
-    <addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.43" provider-name="marcelveldt and others">
+<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.43" provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -1973,7 +1971,7 @@ v1.1.25
 	</extension>
 </addon>
  
-    <addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.45" provider-name="marcelveldt and others">
+<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.45" provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
