@@ -607,12 +607,6 @@ v0.5.9 (2022-03-22)
 	</extension>
 </addon>
 
-<!-- ########################################### -->
-<!-- #     GIVE CREDIT WHERE CREDIT IS DUE     # -->
-<!-- #                                         # -->
-<!-- #      THE TEAM JETEXTRACTOR              # -->
-<!-- ########################################### -->
- 
 <addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.29">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
@@ -1259,7 +1253,6 @@ v1.0.25 (marcelveldt)
     </assets>
   </extension>
 </addon>
-
  
 <addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.4" provider-name="The Loop">
 	<extension point="xbmc.addon.repository" name="Loop Repository">
@@ -1762,6 +1755,7 @@ v1.0.25 (marcelveldt)
     </assets>
   </extension>
 </addon>
+	
 <addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel), enen92" version="19.0.7">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -1947,7 +1941,7 @@ v1.1.25
     </extension>
 </addon>
  
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.22" provider-name="marcelveldt and others">
+<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.22" provider-name="marcelveldt and others">
 	<requires>
 	    <import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -5762,4 +5756,23 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
   </extension>
 </addon>
 
+<addon id="repository.kodi.media" name="Kodi Media Repository" version="1.0.0" provider-name="mr-evil1">
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>https://mr-evil1.github.io/kodi-media-repo/addons.xml</info>
+            <checksum>https://mr-evil1.github.io/kodi-media-repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://mr-evil1.github.io/kodi-media-repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Media Repository</summary>
+        <description>Repository von Kodi Media Addons und Abhängigkeiten.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>kodi-media.jpg</icon>
+            <fanart>kodi-media.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+	
 </addons>
