@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.heptamers.stuff" name="Heptamers Stuff" version="1.0.0" provider-name="Heptamer">
+    <extension point="xbmc.addon.repository" name="Heptamers Stuff">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Heptamers Stuff</summary>
+        <summary lang="en">Heptamers Stuff</summary>
+        <description lang="de">Kodi Add-on Repository</description>
+        <description lang="en">Kodi Add-on Repository</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
