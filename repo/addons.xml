@@ -5739,5 +5739,53 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
         </assets>
     </extension>
 </addon>
+
+<addon id="plugin.video.svod" name="xStalkerVoD" version="1.4.0" provider-name="xS-Team">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.25.1" />
+		<import addon="script.module.pydevd" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service_entry.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary lang="de_DE">Stalker VOD Client</summary>
+		<description lang="de_DE">Stalker Client für TV und VoD</description>
+		<license>GPL-3.0-or-later</license>
+		<language>de_DE</language>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<screenshot>resources/screenshots/screenshot_1.png</screenshot><screenshot>resources/screenshots/screenshot_2.png</screenshot><screenshot>resources/screenshots/screenshot_3.png</screenshot><screenshot>resources/screenshots/screenshot_4.png</screenshot><screenshot>resources/screenshots/screenshot_5.png</screenshot><screenshot>resources/screenshots/screenshot_6.png</screenshot></assets>
+		<news>
+v1.0.0  (2026-01-11)
+- Release based on Stalker VoD. Added optimizations for performance and stability. Caching, 5 Portals, Favorites
+		</news>
+	</extension>
+</addon>	
+
+<addon id="repository.heptamers.stuff" name="Heptamers Stuff" version="1.0.0" provider-name="Heptamer">
+    <extension point="xbmc.addon.repository" name="Heptamers Stuff">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Heptamer/heps_stuff/master/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Heptamers Stuff</summary>
+        <summary lang="en">Heptamers Stuff</summary>
+        <description lang="de">Kodi Add-on Repository</description>
+        <description lang="en">Kodi Add-on Repository</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 	
 </addons>
