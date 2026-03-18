@@ -1,9 +1,8 @@
-
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrashX Builds</title>
+    <title>CrashX</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -357,25 +356,10 @@
 <body>
     <div class="container">
         <header>
-            <h1>CrashX Builds</h1>
-            <p class="tagline">Offizielle Build-Sammlung für Kodi</p>
+            <h1>CrashX </h1>
         </header>
         
-        <div class="search-box">
-            <input type="text" id="searchInput" class="search-input" placeholder="Builds suchen...">
-        </div>
-        
-        <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">Alle Builds</button>
-            <button class="filter-btn" data-filter="32bit">32-Bit Builds</button>
-            <button class="filter-btn" data-filter="64bit">64-Bit Builds</button>
-        <!--    <button class="filter-btn" data-filter="general">Allgemein</button> -->
-            <button class="filter-btn" data-filter="kids">Kids</button>
-            <button class="filter-btn" data-filter="sports">Sports</button>
-        </div>
-        
         <div id="buildsContainer" class="builds-grid">
-            <!-- Builds werden hier dynamisch geladen -->
         </div>
         
         <div class="downloads-section">
@@ -386,19 +370,7 @@
                     <div class="download-icon">
                         <i class="fas fa-download"></i>
                     </div>
-                    <h3 class="download-title">APK Team_CrashX 32Bit</h3>
-                    <p>Für Android-Geräte mit 32-Bit Architektur</p>
-                    <a href="https://t.me/TeamCrashX/7/365?single" class="btn btn-downloads" target="_blank">Download APK</a>
-                </div>
-                
-                <div class="download-card">
-                    <div class="download-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3 class="download-title">APK Team_CrashX 64Bit</h3>
-                    <p>Für moderne Android-Geräte mit 64-Bit Architektur</p>
-                    <a href="https://t.me/TeamCrashX/7/365?single" class="btn btn-downloads" target="_blank">Download APK</a>
-                </div>
+
                 
                 <div class="download-card">
                     <div class="download-icon">
@@ -412,203 +384,10 @@
         </div>
         
         <footer>
-            <p>Team_CrashX Builds &copy; 2024 | Offizielle Build-Sammlung für Kodi</p>
-            <p style="margin-top: 10px;">Diese Seite zeigt Builds von Team_CrashX <a href="" style="color: #00ff00;"></a> </p>
+            <p>CrashX &copy; 2024 | </p>
         </footer>
     </div>
     
-    <script>
-        // Builds-Daten aus der builds.txt
-        const buildsData = [
-            {
-                name: "Valhalla V2",
-                version: "2.4",
-                kodi: "21.2",
-                theme: "",
-                adult: "No",
-                description: "Team GoK -LiveTV-Vavoo-PlutoTV-PVR-Client-TVMediathek",
-                category: "32bit"
-            },
-            {
-                name: "Minions",
-                version: "1.0",
-                kodi: "21.2",
-                adult: "No",
-                description: "Team Kids Build ARD Die_Maus ZDF_Tivi tierwelt Kika ZDF WDR Mediathek",
-                category: "kids" 
-            },
-            {
-                name: "CrashX Flix 1.0",
-                version: "1.0",
-                kodi: "21.2",
-                adult: "No",
-                description: "Team CrashX",
-                category: "32bit"
-            },
-            {
-                name: "TCrashX 1.0",
-                version: "1.0",
-                kodi: "21.2",
-                adult: "No",
-                description: "Team CrashX",
-                category: "32bit"
-            },
-            {
-                name: "Valhalla 64Bit",
-                version: "1.0",
-                url: "",
-                kodi: "21.2",
-                adult: "No",
-                description: "Team GOK -Vavoo-xShip-Dmax-PlutoTV-PVR-Client-TVMediathek-BRMedia-",
-                category: "64bit"
-            }
-        ];
-        
-        // Build-Kategorien für Filter
-        const categoryMap = {
-            "general": "Allgemein",
-            "kids": "Kids",
-            "sports": "Sports",
-            "32bit": "32-Bit",
-            "64bit": "64-Bit"
-        };
-        
-        // Badge-Farben basierend auf Kategorie
-        const badgeClasses = {
-            "general": "",
-            "kids": "badge-kids",
-            "sports": "badge-sports",
-            "32bit": "",
-            "64bit": ""
-        };
-        
-        // DOM Elemente
-        const buildsContainer = document.getElementById('buildsContainer');
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const searchInput = document.getElementById('searchInput');
-        
-        // Initial alle Builds anzeigen
-        renderBuilds(buildsData);
-        
-        // Filter-Buttons Event Listener
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Aktiven Button markieren
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-                
-                const filter = button.getAttribute('data-filter');
-                filterBuilds(filter);
-            });
-        });
-        
-        // Suchfunktion
-        searchInput.addEventListener('input', () => {
-            const searchTerm = searchInput.value.toLowerCase();
-            filterBuildsBySearch(searchTerm);
-        });
-        
-        // Builds filtern nach Kategorie
-        function filterBuilds(filter) {
-            let filteredBuilds;
-            
-            if (filter === 'all') {
-                filteredBuilds = buildsData;
-            } else {
-                filteredBuilds = buildsData.filter(build => {
-                    return build.category === filter;
-                });
-            }
-            
-            renderBuilds(filteredBuilds);
-        }
-        
-        // Builds filtern nach Suchbegriff
-        function filterBuildsBySearch(searchTerm) {
-            if (searchTerm.trim() === '') {
-                // Wenn Suchfeld leer, aktiven Filter anwenden
-                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
-                filterBuilds(activeFilter);
-                return;
-            }
-            
-            const filteredBuilds = buildsData.filter(build => {
-                return build.name.toLowerCase().includes(searchTerm) || 
-                       build.description.toLowerCase().includes(searchTerm) ||
-                       build.version.toLowerCase().includes(searchTerm);
-            });
-            
-            renderBuilds(filteredBuilds);
-        }
-        
-        // Builds rendern
-        function renderBuilds(builds) {
-            buildsContainer.innerHTML = '';
-            
-            if (builds.length === 0) {
-                buildsContainer.innerHTML = '<div class="no-builds">Keine Builds gefunden</div>';
-                return;
-            }
-            
-            builds.forEach(build => {
-                const buildCard = document.createElement('div');
-                buildCard.className = 'card';
-                
-                // Erwachsenen-Warnung hinzufügen
-                if (build.adult === "Yes") {
-                    buildCard.classList.add('adult-warning');
-                }
-                
-                // Badge basierend auf Kategorie
-                const badgeClass = badgeClasses[build.category] || '';
-                const badgeText = build.category === 'general' ? 'Build' : categoryMap[build.category];
-                
-                // Theme-Link, falls vorhanden
-                const themeLink = build.theme && build.theme !== 'http://' ? 
-                    `<a href="${build.theme}" class="theme-link" target="_blank">Theme öffnen</a>` : 
-                    'Theme verfügbar';
-                
-                // Build-Card HTML
-                buildCard.innerHTML = `
-                    <div class="card-header">
-                        <h3 class="card-title">${build.name}</h3>
-                        <span class="card-badge ${badgeClass}">${badgeText}</span>
-                    </div>
-                    
-                    <div class="build-info">
-                        <div class="info-item">
-                            <div class="info-label">Version</div>
-                            <div class="info-value">${build.version}</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">Kodi Version</div>
-                            <div class="info-value">${build.kodi}</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">Erwachseneninhalt</div>
-                            <div class="info-value">${build.adult === "Yes" ? "Ja" : "Nein"}</div>
-                        </div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="info-label">Beschreibung</div>
-                        <div class="info-value">${build.description}</div>
-                    </div>
-                    
-                    <div style="margin-top: 15px;">
-                        <div class="info-label">Theme</div>
-                        <div class="info-value">${themeLink}</div>
-                    </div>
-                    
-                    <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
-                        ${build.url ? `<a href="${build.url}" class="btn" target="_blank">Download Build</a>` : ''}
-                        ${build.info && build.info !== 'http://' ? `<a href="${build.info}" class="btn btn-secondary" target="_blank">Info</a>` : ''}
-                    </div>
-                `;
-                
-                buildsContainer.appendChild(buildCard);
-            });
-        }
     </script>
 </body>
 </html>
