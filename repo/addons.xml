@@ -5811,5 +5811,52 @@ v1.0.0  (2026-01-11)
         <news>v1.0.9: probe lovecdn before use; AnyPlayer fallback to CHEVY no-auth when all players fail</news>
     </extension>
 </addon>
+
+<addon id="plugin.program.simple.favourites"
+       version="0.1.17"
+       name="Simple Favourites"
+       provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.xbmcswift2"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Simple Favourites</summary>
+        <description lang="en"/>
+        <disclaimer lang="en">.</disclaimer>
+    </extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+
+            <item library="add_item_context.py">
+                <label>Add to simple favorites</label>
+                <visible>true</visible>
+            </item>
+
+        </menu>
+    </extension>
+</addon>
+
+<addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel), enen92" version="19.0.7">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <source>https://github.com/XBMC-Addons/script.module.xbmcswift2</source>
+    <license>GPL-3.0</license>
+    <summary lang="en_GB">xbmcswift2 is a small framework to ease development of KODI addons.</summary>
+    <description lang="en_GB">xbmcswift2 is a small framework to ease development of KODI addons.</description>
+    <news>Fixes for python 3.10 - move collections.MutableMapping to collections.abc.MutableMapping</news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 	
 </addons>
