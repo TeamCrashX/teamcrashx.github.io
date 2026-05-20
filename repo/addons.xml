@@ -5696,7 +5696,7 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
     </extension>
 </addon>
 
-<addon id="plugin.video.svod" name="xStalkerVoD" version="1.4.0" provider-name="xS-Team">
+<addon id="plugin.video.svod" name="xStalkerVoD" version="1.4.1" provider-name="xS-Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.25.1" />
