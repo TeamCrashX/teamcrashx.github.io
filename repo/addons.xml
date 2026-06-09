@@ -6198,7 +6198,7 @@ v1.0.0  (2026-01-11)
 </extension>
 </addon>
 
-<addon id="plugin.video.wm2026" name="WM 2026" version="1.0.0" provider-name="SGK, AI">
+<addon id="plugin.video.wm2026" name="WM 2026" version="1.0.1" provider-name="SGK, AI">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="inputstream.adaptive" version="20.3.5"/>
