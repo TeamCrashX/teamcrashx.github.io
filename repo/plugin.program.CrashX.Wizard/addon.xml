@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.CrashX.Wizard" name="[COLOR green]CrashX 21.3 Wizard[/COLOR]" version="21.3.0" provider-name="CrashX">
+<addon id="plugin.program.CrashX.Wizard" name="[COLOR green]CrashX 21.3 Wizard[/COLOR]" version="21.3.1" provider-name="CrashX">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.certifi" version="2023.5.7"/>
