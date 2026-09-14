@@ -2978,28 +2978,22 @@ Subscription required.</description>
     </extension>
 </addon>
  
-<addon id="plugin.program.CrashX.Wizard" name="[COLOR green]CrashX 21.1 Wizard[/COLOR]" version="21.1.0" provider-name="CrashX">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.six" />
-    <import addon="script.module.kodi-six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="de">CrashX 21.1 Wizard</summary>
-    <description lang="de">CrashX 21.1 Wizard</description>
-    <platform>all</platform>
-    <assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
+<addon id="plugin.program.CrashX.Wizard" name="[COLOR green]CrashX 21.3 Wizard[/COLOR]" version="21.3.0" provider-name="CrashX">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.certifi" version="2023.5.7"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py"/>
+	<extension point="xbmc.service" library="startup.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">TiTanX LAB GUI Wizard</summary>
+		<description lang="en">[COLOR=white]TiTanX LAB Community Builds[/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 		</assets>
-  </extension>
+	</extension>
 </addon>
  
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2023.2.30" provider-name="Slam, Diggz|HSK-FIX">
