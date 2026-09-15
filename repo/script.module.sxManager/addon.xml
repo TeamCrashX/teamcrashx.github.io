@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.sxManager" 
-       name="Manager - xShip/XStream/lastship Domain Sync" 
-       version="1.0.6" 
+       name="Manager - xShip/XStream Domains" 
+       version="1.0.7" 
        provider-name="[COLOR green]C[COLOR white]rash[/COLOR][COLOR green]X[/COLOR] / [COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.xship" optional="true"/>
     <import addon="plugin.video.xstream" optional="true"/>
-	<import addon="plugin.video.lastship.reborn" optional="true"/>
 	<import addon="repository.eragon" optional="true"/>
 	<import addon="repository.CrashX" optional="true"/>
   </requires>
@@ -16,30 +15,25 @@
   </extension>
   <extension point="xbmc.service" library="service_starter.py" start="login"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Professional Domain Manager for xShip, xStream, lastship </summary>
-    <summary lang="de_DE">Professioneller Domain-Manager für xShip, xStream, lastship</summary>
-    <description lang="en_GB">sxManager is an advanced domain synchronization service for xShip, xStream and lastship. This service automatically manages domain settings for all addons. Make sure the remote URLs are trustworthy.</description>
-    <description lang="de_DE">sxManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xShip, xStream und lastship. Dieser Service verwaltet automatisch die Domain-Einstellungen für beide Addons. Stelle sicher, dass die Remote-URLs vertrauenswürdig sind.</description>
+    <summary lang="en_GB">Professional Domain Manager for xShip, xStream </summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xShip, xStream</summary>
+    <description lang="en_GB">sxManager monitors the active xShip and xStream domains, detects outages and common Cloudflare blocks, and can switch to installed fallback domains automatically or manually.</description>
+    <description lang="de_DE">sxManager überwacht die aktiven Domains von xShip und xStream, erkennt Ausfälle und typische Cloudflare-Sperren und kann auf installierte Alternativ-Domains automatisch oder manuell wechseln.</description>
     <platform>all</platform>
     <license>MIT</license>
-	<website>https://t.me/team_crashx / https://t.me/c/2304581788/12770</website>
-    <news>v1.0. (2025-12-26)
-- Combined sManager and xManager into sxManager
-- Supports xShip, xStream, lastship addons
-- Separate configuration for each addon
-- Backup management for all
-- Automatic domain synchronization
-- Support [COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]-[COLOR black]Crew[/COLOR]
-	</news>
+	<website>https://t.me/TeamCrashX / https://t.me/c/2304581788/12770</website>
+    <news>v1.0.7 (2026-09-10)
+- Lokaler Domain-Status für xShip und xStream
+- Erkennung typischer Cloudflare-Sperren
+- Automatischer Check aktiver Domains mit Fallback bei Ausfall
+- Manueller vollständiger Domain Check und Alternative übernehmen
+- Schlanker lokaler Domain-Monitor ohne Remote-Synchronisation und Backups
+</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
 			<banner>resources/icon.png</banner>
-			<clearlogo>resources/icon.png</clearlogo>
-			<screenshot>resources/screen1.jpg</screenshot>
-			<screenshot>resources/screen2.jpg</screenshot>
-			<screenshot>resources/screen3.jpg</screenshot>
-			<screenshot>resources/screen4.jpg</screenshot>	  
+			<clearlogo>resources/icon.png</clearlogo>	  
     </assets>
   </extension>
 </addon>
