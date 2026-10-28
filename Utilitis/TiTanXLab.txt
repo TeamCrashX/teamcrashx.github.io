@@ -86,7 +86,7 @@ description="CrashX Flix "
 
 name="CrashX Gold2"
 version="1.0"
-url="https://ia601504.us.archive.org/5/items/kodi_G2/Gold2.zip"
+url="https://ia601504.us.archive.org/5/items/kodi_G2/Goldk2.zip"
 minor="http://"
 gui="http://"
 kodi="21.3"
