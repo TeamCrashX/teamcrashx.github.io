@@ -1,0 +1,3067 @@
+# Kodi Media Center language file
+# Addon Name: TiTanX LAB GUI Wizard
+# Addon id: plugin.program.TiTanX_LAB-GUIWizard
+# Addon Provider: TiTanX LAB
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-14 00:00+0000\n"
+"PO-Revision-Date: 2026-08-14 00:00+0000\n"
+"Language-Team: English (GB)\n"
+"Language: en_gb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "Addon Summary"
+msgid "TiTanX LAB GUI Wizard"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "TiTanX LAB Community Builds"
+msgstr ""
+
+# ### Kategorien / Categories ###
+msgctxt "#32001"
+msgid "Build Options"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Maintenance"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Install Settings"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Trakt Settings"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Real Debrid Settings"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Premiumize Settings"
+msgstr ""
+
+msgctxt "#32007"
+msgid "AllDebrid Settings"
+msgstr ""
+
+msgctxt "#32008"
+msgid "TorBox Settings"
+msgstr ""
+
+msgctxt "#32009"
+msgid "LinkSnappy Settings"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Login Settings"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Misc Settings"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Logging Settings"
+msgstr ""
+
+# ### Build Options ###
+msgctxt "#32013"
+msgid "Current Build:"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Installed Build: "
+msgstr ""
+
+msgctxt "#32015"
+msgid "Installed Version: "
+msgstr ""
+
+msgctxt "#32016"
+msgid "Current Theme: "
+msgstr ""
+
+msgctxt "#32017"
+msgid "Latest Version: "
+msgstr ""
+
+msgctxt "#32018"
+msgid "Next check for build update: "
+msgstr ""
+
+msgctxt "#32019"
+msgid "Disable Update Notification"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Which method would you like to use after Install?"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Show Builds:"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Do not seperate based off version"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Show Kodi 21 (Omega) Builds"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Show Kodi 20 (Nexus) Builds"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Show Kodi 19 (Matrix) Builds"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Show Maintenance Menu"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Build Installed"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Extract Build %"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Extract Error"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Default Skin: "
+msgstr ""
+
+msgctxt "#32031"
+msgid "Default Skin Name: "
+msgstr ""
+
+msgctxt "#32032"
+msgid "Ignore default skin check:"
+msgstr ""
+
+msgctxt "#32033"
+msgid "Default lookandfeel.enablerssfeeds:"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Default lookandfeel.font:"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Default lookandfeel.rssedit:"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Default lookandfeel.skincolors:"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Default lookandfeel.skintheme:"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Default lookandfeel.skinzoom:"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Default lookandfeel.soundskin:"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Default lookandfeel.startupwindow:"
+msgstr ""
+
+msgctxt "#32041"
+msgid "Default lookandfeel.stereostrength:"
+msgstr ""
+
+msgctxt "#32042"
+msgid "Default general.addonupdate:"
+msgstr ""
+
+msgctxt "#32043"
+msgid "Enabled PVR:"
+msgstr ""
+
+# ### Maintenance ###
+msgctxt "#32044"
+msgid "Backup Location: "
+msgstr ""
+
+msgctxt "#32045"
+msgid "Choose Backup Storage Location"
+msgstr ""
+
+msgctxt "#32046"
+msgid "Choose Roms Extract Location Location"
+msgstr ""
+
+msgctxt "#32047"
+msgid "Maintenance Options: "
+msgstr ""
+
+msgctxt "#32048"
+msgid "Clear Cache on Startup"
+msgstr ""
+
+msgctxt "#32049"
+msgid "Enable Auto Package/Thumbnail Cleanup on Startup"
+msgstr ""
+
+msgctxt "#32050"
+msgid "Auto Clear Packages"
+msgstr ""
+
+msgctxt "#32051"
+msgid "Auto Clear Thumbnails"
+msgstr ""
+
+msgctxt "#32052"
+msgid "Cleanup Frequency (Days)"
+msgstr ""
+
+msgctxt "#32053"
+msgid "Next Auto Cleanup:"
+msgstr ""
+
+msgctxt "#32054"
+msgid "Package Folder Limit"
+msgstr ""
+
+msgctxt "#32055"
+msgid "Max Folder Size MB"
+msgstr ""
+
+msgctxt "#32056"
+msgid "Thumbnails Folder Limit"
+msgstr ""
+
+msgctxt "#32057"
+msgid "Upload Log: "
+msgstr ""
+
+msgctxt "#32058"
+msgid "E-Mail Address"
+msgstr ""
+
+msgctxt "#32059"
+msgid "Include Kodi.Old.Log"
+msgstr ""
+
+msgctxt "#32060"
+msgid "Include Wizard Logs"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Include Kodi Crash Logs"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Clearing Video Cache:"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Include Video Addons in Clear Cache: "
+msgstr ""
+
+msgctxt "#32064"
+msgid "Include All Addons: "
+msgstr ""
+
+# ### Install Settings ###
+msgctxt "#32065"
+msgid "Keep Settings When Installing Build:"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Keep My Favourites"
+msgstr ""
+
+msgctxt "#32067"
+msgid "Last Time Favourites Saved: "
+msgstr ""
+
+msgctxt "#32068"
+msgid "Keep My Sources"
+msgstr ""
+
+msgctxt "#32069"
+msgid "Keep My Profiles"
+msgstr ""
+
+msgctxt "#32070"
+msgid "Keep My AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32071"
+msgid "Keep Installed Repositories"
+msgstr ""
+
+msgctxt "#32072"
+msgid "Keep Super Favourites"
+msgstr ""
+
+msgctxt "#32073"
+msgid "Keep My Whitelist Addons"
+msgstr ""
+
+# ### Trakt Settings ###
+msgctxt "#32074"
+msgid "Save Trakt Data:"
+msgstr ""
+
+msgctxt "#32075"
+msgid "Keep My Trakt Data"
+msgstr ""
+
+msgctxt "#32076"
+msgid "Trakt: "
+msgstr ""
+
+msgctxt "#32077"
+msgid "Last Time Trakt Saved: "
+msgstr ""
+
+# ### Real Debrid Settings ###
+msgctxt "#32078"
+msgid "Save Real Debrid Data:"
+msgstr ""
+
+msgctxt "#32079"
+msgid "Keep My Real Debrid Data"
+msgstr ""
+
+msgctxt "#32080"
+msgid "Url Resolver: "
+msgstr ""
+
+msgctxt "#32081"
+msgid "Last Time Real Debrid Saved: "
+msgstr ""
+
+# ### Premiumize Settings ###
+msgctxt "#32082"
+msgid "Save Premiumize Data:"
+msgstr ""
+
+msgctxt "#32083"
+msgid "Keep My Premiumize Data"
+msgstr ""
+
+msgctxt "#32084"
+msgid "Last Time Premiumize Saved: "
+msgstr ""
+
+# ### AllDebrid Settings ###
+msgctxt "#32085"
+msgid "Save AllDebrid Data:"
+msgstr ""
+
+msgctxt "#32086"
+msgid "Keep My AllDebrid Data"
+msgstr ""
+
+msgctxt "#32087"
+msgid "Last Time AllDebrid Saved: "
+msgstr ""
+
+# ### TorBox Settings ###
+msgctxt "#32088"
+msgid "Save TorBox Data:"
+msgstr ""
+
+msgctxt "#32089"
+msgid "Keep My TorBox Data"
+msgstr ""
+
+msgctxt "#32090"
+msgid "Last Time TorBox Saved: "
+msgstr ""
+
+# ### LinkSnappy Settings ###
+msgctxt "#32091"
+msgid "Save LinkSnappy Data:"
+msgstr ""
+
+msgctxt "#32092"
+msgid "Keep My LinkSnappy Data"
+msgstr ""
+
+msgctxt "#32093"
+msgid "Last Time LinkSnappy Saved: "
+msgstr ""
+
+# ### Login Settings ###
+msgctxt "#32094"
+msgid "Save Login Data:"
+msgstr ""
+
+msgctxt "#32095"
+msgid "Keep My Login Data"
+msgstr ""
+
+msgctxt "#32096"
+msgid "IPTV:"
+msgstr ""
+
+msgctxt "#32097"
+msgid "SportsAccess: "
+msgstr ""
+
+msgctxt "#32098"
+msgid "Smooth Streams: "
+msgstr ""
+
+msgctxt "#32099"
+msgid "Flawless IPTV: "
+msgstr ""
+
+msgctxt "#32100"
+msgid "Over The Top TV: "
+msgstr ""
+
+msgctxt "#32101"
+msgid "SportsMania: "
+msgstr ""
+
+msgctxt "#32102"
+msgid "SportsNationHD: "
+msgstr ""
+
+msgctxt "#32103"
+msgid "UltimateMania: "
+msgstr ""
+
+msgctxt "#32104"
+msgid "Overlord TV: "
+msgstr ""
+
+msgctxt "#32105"
+msgid "Xtream-Codes: "
+msgstr ""
+
+msgctxt "#32106"
+msgid "TV Guides:"
+msgstr ""
+
+msgctxt "#32107"
+msgid "TV Portal: "
+msgstr ""
+
+msgctxt "#32108"
+msgid "Ivue TV Guide: "
+msgstr ""
+
+msgctxt "#32109"
+msgid "On-Tapp TV Guide: "
+msgstr ""
+
+msgctxt "#32110"
+msgid "Misc Addons:"
+msgstr ""
+
+msgctxt "#32111"
+msgid "Community Portal: "
+msgstr ""
+
+msgctxt "#32112"
+msgid "Open Subtitles: "
+msgstr ""
+
+msgctxt "#32113"
+msgid "VPNicity: "
+msgstr ""
+
+msgctxt "#32114"
+msgid "Last Time Login Saved: "
+msgstr ""
+
+# ### Misc Settings ###
+msgctxt "#32115"
+msgid "Show Developer Menu: "
+msgstr ""
+
+msgctxt "#32116"
+msgid "Show Adult Addons: "
+msgstr ""
+
+msgctxt "#32117"
+msgid "Enable Auto View"
+msgstr ""
+
+msgctxt "#32118"
+msgid "View Type"
+msgstr ""
+
+msgctxt "#32119"
+msgid "Notification Window on Startup:"
+msgstr ""
+
+msgctxt "#32120"
+msgid "Disable Notification on Startup"
+msgstr ""
+
+msgctxt "#32121"
+msgid "Latest Notification"
+msgstr ""
+
+msgctxt "#32122"
+msgid "Dismiss or Remind me later"
+msgstr ""
+
+# ### Logging Settings ###
+msgctxt "#32123"
+msgid "Event Logging in the Wizard:"
+msgstr ""
+
+msgctxt "#32124"
+msgid "Enable Addon Debugging: "
+msgstr ""
+
+msgctxt "#32125"
+msgid "Level 0: No Logging"
+msgstr ""
+
+msgctxt "#32126"
+msgid "Level 1: Normal Logging"
+msgstr ""
+
+msgctxt "#32127"
+msgid "Level 2: Full Logging"
+msgstr ""
+
+msgctxt "#32128"
+msgid "What level would you like the wizard to log?"
+msgstr ""
+
+msgctxt "#32129"
+msgid "Enable Writing to Wizard.Log: "
+msgstr ""
+
+msgctxt "#32130"
+msgid "Automatically Clean up Wizard.Log: "
+msgstr ""
+
+msgctxt "#32131"
+msgid "How would you like to clean up the log wizard?"
+msgstr ""
+
+msgctxt "#32132"
+msgid "Keep how many days of wizard.log?"
+msgstr ""
+
+msgctxt "#32133"
+msgid "Max file size for wizard.log?"
+msgstr ""
+
+msgctxt "#32134"
+msgid "Keep how many lines of wizard.log?"
+msgstr ""
+
+msgctxt "#32135"
+msgid "Next Time Wizard Log Cleaned:"
+msgstr ""
+
+# ### Enum-Werte / Enum values ###
+msgctxt "#32136"
+msgid "Always Ask"
+msgstr ""
+
+msgctxt "#32137"
+msgid "Reload Profile"
+msgstr ""
+
+msgctxt "#32138"
+msgid "Force Close"
+msgstr ""
+
+msgctxt "#32139"
+msgid "Level 0"
+msgstr ""
+
+msgctxt "#32140"
+msgid "Level 1"
+msgstr ""
+
+msgctxt "#32141"
+msgid "Level 2"
+msgstr ""
+
+msgctxt "#32142"
+msgid "By Days"
+msgstr ""
+
+msgctxt "#32143"
+msgid "By Size"
+msgstr ""
+
+msgctxt "#32144"
+msgid "By Lines"
+msgstr ""
+
+msgctxt "#32145"
+msgid "1 Day"
+msgstr ""
+
+msgctxt "#32146"
+msgid "2 Days"
+msgstr ""
+
+msgctxt "#32147"
+msgid "3 Days"
+msgstr ""
+
+msgctxt "#32148"
+msgid "7 Days"
+msgstr ""
+
+msgctxt "#32149"
+msgid "100 KB"
+msgstr ""
+
+msgctxt "#32150"
+msgid "200 KB"
+msgstr ""
+
+msgctxt "#32151"
+msgid "300 KB"
+msgstr ""
+
+msgctxt "#32152"
+msgid "400 KB"
+msgstr ""
+
+msgctxt "#32153"
+msgid "500 KB"
+msgstr ""
+
+msgctxt "#32154"
+msgid "1 MB"
+msgstr ""
+
+# ### default.py: Hauptmenue (index) ###
+msgctxt "#32200"
+msgid "None"
+msgstr ""
+
+msgctxt "#32201"
+msgid "Builds"
+msgstr ""
+
+msgctxt "#32202"
+msgid "Maintenance"
+msgstr ""
+
+msgctxt "#32203"
+msgid "Internet Tools"
+msgstr ""
+
+msgctxt "#32204"
+msgid "Save Login Data / Favs Options"
+msgstr ""
+
+msgctxt "#32205"
+msgid "Backup/Restore Data Options"
+msgstr ""
+
+msgctxt "#32206"
+msgid "Contact"
+msgstr ""
+
+msgctxt "#32207"
+msgid "Upload Log File"
+msgstr ""
+
+msgctxt "#32208"
+msgid "View Errors in Log: %s"
+msgstr ""
+
+msgctxt "#32209"
+msgid "View Last Error In Log"
+msgstr ""
+
+msgctxt "#32210"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32211"
+msgid "Force Update Text Files"
+msgstr ""
+
+msgctxt "#32212"
+msgid "Developer Menu"
+msgstr ""
+
+msgctxt "#32213"
+msgid "None Found"
+msgstr ""
+
+msgctxt "#32214"
+msgid "Error(s) Found"
+msgstr ""
+
+# ### default.py: GUI Hauptbuttons (Guiwiz) ###
+msgctxt "#32215"
+msgid "Backup/Restore"
+msgstr ""
+
+msgctxt "#32216"
+msgid "Tools"
+msgstr ""
+
+msgctxt "#32217"
+msgid "Close"
+msgstr ""
+
+msgctxt "#32218"
+msgid "%s Version: %s"
+msgstr ""
+
+msgctxt "#32219"
+msgid "Save Data Menu"
+msgstr ""
+
+msgctxt "#32220"
+msgid "Url for txt file not valid"
+msgstr ""
+
+msgctxt "#32222"
+msgid "[B]%s Nexus Builds(%s)[/B]"
+msgstr ""
+
+msgctxt "#32223"
+msgid "[B]%s Matrix Builds(%s)[/B]"
+msgstr ""
+
+msgctxt "#32224"
+msgid "There is currently only Adult builds"
+msgstr ""
+
+msgctxt "#32225"
+msgid "Enable Show Adults in Addon Settings > Misc"
+msgstr ""
+
+msgctxt "#32226"
+msgid "Currently No Builds Offered from %s"
+msgstr ""
+
+msgctxt "#32227"
+msgid "Text file for builds not formated correctly."
+msgstr ""
+
+msgctxt "#32228"
+msgid "Error reading the txt file."
+msgstr ""
+
+msgctxt "#32229"
+msgid "%s was not found in the builds list."
+msgstr ""
+
+msgctxt "#32230"
+msgid "%s [COLOR red][CURRENT v%s][/COLOR]"
+msgstr ""
+
+msgctxt "#32231"
+msgid "Build Information"
+msgstr ""
+
+msgctxt "#32232"
+msgid "BUILD DESIGNED FOR KODI VERSION %s [COLOR yellow](INSTALLED: %s)[/COLOR]"
+msgstr ""
+
+msgctxt "#32233"
+msgid "INSTALL"
+msgstr ""
+
+msgctxt "#32234"
+msgid "Fresh Start then Install"
+msgstr ""
+
+msgctxt "#32235"
+msgid "Standard Install"
+msgstr ""
+
+msgctxt "#32236"
+msgid "Total Clean Up: [COLOR green][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32237"
+msgid "Clear Cache: [COLOR green][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32238"
+msgid "Clear Packages: [COLOR green][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32239"
+msgid "Clear Thumbnails: [COLOR green][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32240"
+msgid "Clear Old Thumbnails"
+msgstr ""
+
+msgctxt "#32241"
+msgid "Clear Crash Logs"
+msgstr ""
+
+msgctxt "#32242"
+msgid "Purge Databases"
+msgstr ""
+
+msgctxt "#32243"
+msgid "[B]Back up/Restore[/B]"
+msgstr ""
+
+msgctxt "#32244"
+msgid "[B]Advanced Settings Tool[/B]"
+msgstr ""
+
+msgctxt "#32245"
+msgid "[B]Addon Tools[/B]"
+msgstr ""
+
+msgctxt "#32246"
+msgid "[B]Misc Maintenance[/B]"
+msgstr ""
+
+msgctxt "#32247"
+msgid "[B]System Tweaks/Fixes[/B]"
+msgstr ""
+
+msgctxt "#32248"
+msgid "!!!>>Fresh Start<<!!!"
+msgstr ""
+
+msgctxt "#32249"
+msgid "Back Up Location: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32250"
+msgid "Backup"
+msgstr ""
+
+msgctxt "#32251"
+msgid "[Back Up]: Build"
+msgstr ""
+
+msgctxt "#32252"
+msgid "[Back Up]: GuiFix"
+msgstr ""
+
+msgctxt "#32253"
+msgid "[Back Up]: Theme"
+msgstr ""
+
+msgctxt "#32254"
+msgid "[Back Up]: Addon Pack"
+msgstr ""
+
+msgctxt "#32255"
+msgid "[Back Up]: Addon_data"
+msgstr ""
+
+msgctxt "#32256"
+msgid "Restore"
+msgstr ""
+
+msgctxt "#32257"
+msgid "[Restore]: Local Build"
+msgstr ""
+
+msgctxt "#32258"
+msgid "[Restore]: Local GuiFix"
+msgstr ""
+
+msgctxt "#32259"
+msgid "[Restore]: Local Addon_data"
+msgstr ""
+
+msgctxt "#32260"
+msgid "[Restore]: External Build"
+msgstr ""
+
+msgctxt "#32261"
+msgid "[Restore]: External GuiFix"
+msgstr ""
+
+msgctxt "#32262"
+msgid "[Restore]: External Addon_data"
+msgstr ""
+
+msgctxt "#32263"
+msgid "Delete All Backups"
+msgstr ""
+
+msgctxt "#32264"
+msgid "Clean Up Back Up Folder"
+msgstr ""
+
+msgctxt "#32265"
+msgid "Remove Addons"
+msgstr ""
+
+msgctxt "#32266"
+msgid "Remove Addon Data"
+msgstr ""
+
+msgctxt "#32267"
+msgid "Enable/Disable Addons"
+msgstr ""
+
+msgctxt "#32268"
+msgid "Enable/Disable Adult Addons"
+msgstr ""
+
+msgctxt "#32269"
+msgid "Force Update Addons"
+msgstr ""
+
+msgctxt "#32270"
+msgid "Hide Passwords On Keyboard Entry"
+msgstr ""
+
+msgctxt "#32271"
+msgid "Unhide Passwords On Keyboard Entry"
+msgstr ""
+
+msgctxt "#32272"
+msgid "Speed Test"
+msgstr ""
+
+msgctxt "#32273"
+msgid "Enable Unknown Sources"
+msgstr ""
+
+msgctxt "#32274"
+msgid "Reload Skin"
+msgstr ""
+
+msgctxt "#32276"
+msgid "Force Close Kodi"
+msgstr ""
+
+msgctxt "#32277"
+msgid "View Log File"
+msgstr ""
+
+msgctxt "#32278"
+msgid "View Wizard Log File"
+msgstr ""
+
+msgctxt "#32279"
+msgid "Clear Wizard Log File"
+msgstr ""
+
+msgctxt "#32280"
+msgid "Not Found"
+msgstr ""
+
+msgctxt "#32281"
+msgid "View Current AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32282"
+msgid "Remove Current AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32283"
+msgid "Quick Configure AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32284"
+msgid "Full Configure AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32285"
+msgid "System Information"
+msgstr ""
+
+msgctxt "#32286"
+msgid "Scan Sources for broken links"
+msgstr ""
+
+msgctxt "#32287"
+msgid "Scan For Broken Repositories"
+msgstr ""
+
+msgctxt "#32288"
+msgid "Fix Addons Not Updating"
+msgstr ""
+
+msgctxt "#32289"
+msgid "Remove Non-Ascii filenames"
+msgstr ""
+
+msgctxt "#32290"
+msgid "Convert Paths to special"
+msgstr ""
+
+msgctxt "#32291"
+msgid "Speed Tester"
+msgstr ""
+
+msgctxt "#32292"
+msgid "View IP Address & MAC Address"
+msgstr ""
+
+msgctxt "#32293"
+msgid "Local IP:"
+msgstr ""
+
+msgctxt "#32294"
+msgid "External IP:"
+msgstr ""
+
+msgctxt "#32295"
+msgid "Provider:"
+msgstr ""
+
+msgctxt "#32296"
+msgid "Location:"
+msgstr ""
+
+msgctxt "#32297"
+msgid "MacAddress:"
+msgstr ""
+
+msgctxt "#32298"
+msgid "[B]Media Center Info:[/B]"
+msgstr ""
+
+msgctxt "#32299"
+msgid "Name:"
+msgstr ""
+
+msgctxt "#32300"
+msgid "Version:"
+msgstr ""
+
+msgctxt "#32301"
+msgid "Platform:"
+msgstr ""
+
+msgctxt "#32302"
+msgid "CPU Usage:"
+msgstr ""
+
+msgctxt "#32303"
+msgid "Screen Mode:"
+msgstr ""
+
+msgctxt "#32304"
+msgid "[B]Uptime:[/B]"
+msgstr ""
+
+msgctxt "#32305"
+msgid "Current Uptime:"
+msgstr ""
+
+msgctxt "#32306"
+msgid "Total Uptime:"
+msgstr ""
+
+msgctxt "#32307"
+msgid "[B]Local Storage:[/B]"
+msgstr ""
+
+msgctxt "#32308"
+msgid "Used Storage:"
+msgstr ""
+
+msgctxt "#32309"
+msgid "Free Storage:"
+msgstr ""
+
+msgctxt "#32310"
+msgid "Total Storage:"
+msgstr ""
+
+msgctxt "#32311"
+msgid "[B]Ram Usage:[/B]"
+msgstr ""
+
+msgctxt "#32312"
+msgid "Used Memory:"
+msgstr ""
+
+msgctxt "#32313"
+msgid "Free Memory:"
+msgstr ""
+
+msgctxt "#32314"
+msgid "Total Memory:"
+msgstr ""
+
+msgctxt "#32315"
+msgid "[B]Network:[/B]"
+msgstr ""
+
+msgctxt "#32316"
+msgid "[B]Addons([COLOR %s]%s[/COLOR]):[/B]"
+msgstr ""
+
+msgctxt "#32317"
+msgid "Video Addons:"
+msgstr ""
+
+msgctxt "#32318"
+msgid "Program Addons:"
+msgstr ""
+
+msgctxt "#32319"
+msgid "Music Addons:"
+msgstr ""
+
+msgctxt "#32320"
+msgid "Picture Addons:"
+msgstr ""
+
+msgctxt "#32321"
+msgid "Repositories:"
+msgstr ""
+
+msgctxt "#32322"
+msgid "Skins:"
+msgstr ""
+
+msgctxt "#32323"
+msgid "Scripts/Modules:"
+msgstr ""
+
+msgctxt "#32324"
+msgid "Keep My 'WhiteList': %s"
+msgstr ""
+
+msgctxt "#32325"
+msgid "    Edit My Whitelist"
+msgstr ""
+
+msgctxt "#32326"
+msgid "    View My Whitelist"
+msgstr ""
+
+msgctxt "#32327"
+msgid "    Clear My Whitelist"
+msgstr ""
+
+msgctxt "#32328"
+msgid "    Import My Whitelist"
+msgstr ""
+
+msgctxt "#32329"
+msgid "    Export My Whitelist"
+msgstr ""
+
+msgctxt "#32330"
+msgid "Keep Favourites"
+msgstr ""
+
+msgctxt "#32331"
+msgid "[I]Auth credentials (Trakt, debrid) are auto-saved in the background.[/I]"
+msgstr ""
+
+msgctxt "#32332"
+msgid "[I]Re-authorization is required after each build install - this is a Kodi limitation.[/I]"
+msgstr ""
+
+msgctxt "#32333"
+msgid "- Click to toggle settings -"
+msgstr ""
+
+msgctxt "#32334"
+msgid "Keep 'Profiles.xml': %s"
+msgstr ""
+
+msgctxt "#32335"
+msgid "Keep 'Advancedsettings.xml': %s"
+msgstr ""
+
+msgctxt "#32336"
+msgid "Keep 'Favourites.xml': %s"
+msgstr ""
+
+msgctxt "#32337"
+msgid "Keep Super Favourites: %s"
+msgstr ""
+
+msgctxt "#32338"
+msgid "Keep Installed Repo's: %s"
+msgstr ""
+
+msgctxt "#32339"
+msgid "Favourites hasnt been saved yet."
+msgstr ""
+
+msgctxt "#32340"
+msgid "Save Favourites: %s"
+msgstr ""
+
+msgctxt "#32341"
+msgid "Last Save: %s"
+msgstr ""
+
+msgctxt "#32342"
+msgid "Backs up a copy"
+msgstr ""
+
+msgctxt "#32343"
+msgid "Save Favourites"
+msgstr ""
+
+msgctxt "#32344"
+msgid "Recover Favourites"
+msgstr ""
+
+msgctxt "#32345"
+msgid "Clear Favourite Backup"
+msgstr ""
+
+msgctxt "#32346"
+msgid "Skin Swap Popup"
+msgstr ""
+
+msgctxt "#32347"
+msgid "Create QR Code"
+msgstr ""
+
+msgctxt "#32348"
+msgid "Test Notifications"
+msgstr ""
+
+msgctxt "#32349"
+msgid "Test Update"
+msgstr ""
+
+msgctxt "#32350"
+msgid "Test First Run"
+msgstr ""
+
+msgctxt "#32351"
+msgid "Test First Run Settings"
+msgstr ""
+
+msgctxt "#32352"
+msgid "Test Auto ADV Settings"
+msgstr ""
+
+msgctxt "#32353"
+msgid "[+]-> %s"
+msgstr ""
+
+msgctxt "#32354"
+msgid "[COLOR red]Addon Data: Not Installed[/COLOR]"
+msgstr ""
+
+msgctxt "#32355"
+msgid "[COLOR red]Addon Data: Not Registered[/COLOR]"
+msgstr ""
+
+msgctxt "#32356"
+msgid "[COLOR green]Addon Data: %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32357"
+msgid "[COLOR red]Saved Data: Save File Found(Import Data)[/COLOR]"
+msgstr ""
+
+msgctxt "#32358"
+msgid "[COLOR red]Saved Data: Not Saved[/COLOR]"
+msgstr ""
+
+msgctxt "#32359"
+msgid "[COLOR green]Saved Data: %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32360"
+msgid "%s Settings"
+msgstr ""
+
+msgctxt "#32361"
+msgid "Clear All Addon Data"
+msgstr ""
+
+msgctxt "#32362"
+msgid "[I]Register FREE Account at https://trakt.tv[/I]"
+msgstr ""
+
+msgctxt "#32363"
+msgid "Trakt hasnt been saved yet."
+msgstr ""
+
+msgctxt "#32364"
+msgid "Save Trakt Data: %s"
+msgstr ""
+
+msgctxt "#32365"
+msgid "Save All Trakt Data"
+msgstr ""
+
+msgctxt "#32366"
+msgid "Recover All Saved Trakt Data"
+msgstr ""
+
+msgctxt "#32367"
+msgid "Import Trakt Data"
+msgstr ""
+
+msgctxt "#32368"
+msgid "Clear All Saved Trakt Data"
+msgstr ""
+
+msgctxt "#32369"
+msgid "[I]https://real-debrid.com is a PAID service.[/I]"
+msgstr ""
+
+msgctxt "#32370"
+msgid "Real Debrid hasnt been saved yet."
+msgstr ""
+
+msgctxt "#32371"
+msgid "Save Real Debrid Data: %s"
+msgstr ""
+
+msgctxt "#32372"
+msgid "Save All Real Debrid Data"
+msgstr ""
+
+msgctxt "#32373"
+msgid "Recover All Saved Real Debrid Data"
+msgstr ""
+
+msgctxt "#32374"
+msgid "Import Real Debrid Data"
+msgstr ""
+
+msgctxt "#32375"
+msgid "Clear All Saved Real Debrid Data"
+msgstr ""
+
+msgctxt "#32376"
+msgid "[I]Several of these addons are PAID services.[/I]"
+msgstr ""
+
+msgctxt "#32377"
+msgid "Login data hasnt been saved yet."
+msgstr ""
+
+msgctxt "#32378"
+msgid "Save Login Data: %s"
+msgstr ""
+
+msgctxt "#32379"
+msgid "Save All Login Data"
+msgstr ""
+
+msgctxt "#32380"
+msgid "Recover All Saved Login Data"
+msgstr ""
+
+msgctxt "#32381"
+msgid "Import Login Data"
+msgstr ""
+
+msgctxt "#32382"
+msgid "Clear All Saved Login Data"
+msgstr ""
+
+msgctxt "#32383"
+msgid "[COLOR %s][B]Install[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32384"
+msgid "[COLOR %s][B]Fresh Install[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32385"
+msgid "[COLOR %s]Current Build Name: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32386"
+msgid "[COLOR %s]Current Build Version: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32387"
+msgid "[COLOR %s]Build Skin Name: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32388"
+msgid "[COLOR %s]Build Theme: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32389"
+msgid "[COLOR %s]Errors During Install: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32390"
+msgid "[COLOR %s]Last Update Check: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32398"
+msgid "[COLOR %s][B]SYSTEM INFO[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32399"
+msgid "[COLOR %s]Version:[/COLOR] [COLOR %s]%s[/COLOR] - [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32400"
+msgid "[B][COLOR %s]Storage[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32401"
+msgid "[COLOR %s]Used:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32402"
+msgid "[COLOR %s]Free:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32403"
+msgid "[COLOR %s]Total:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32404"
+msgid "[B][COLOR %s]Memory[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32405"
+msgid "[COLOR %s]Name:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32406"
+msgid "[COLOR %s]Addons Total: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32407"
+msgid "[COLOR %s][B]NETWORK INFO[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32408"
+msgid "[COLOR %s]Mac:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32409"
+msgid "[COLOR %s]Internal IP: [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32410"
+msgid "[COLOR %s]External IP:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32411"
+msgid "[COLOR %s]City:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32412"
+msgid "[COLOR %s]State:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32413"
+msgid "[COLOR %s]Country:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32414"
+msgid "[COLOR %s]ISP:[/COLOR] [COLOR %s]Hidden[/COLOR]"
+msgstr ""
+
+msgctxt "#32415"
+msgid "[COLOR %s]Size:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32416"
+msgid "[COLOR %s]Files:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32417"
+msgid "[COLOR %s]Total Clean Up[/COLOR]"
+msgstr ""
+
+msgctxt "#32418"
+msgid "[COLOR %s]Delete Cache[/COLOR]"
+msgstr ""
+
+msgctxt "#32419"
+msgid "[COLOR %s]Delete Packages[/COLOR]"
+msgstr ""
+
+msgctxt "#32420"
+msgid "[COLOR %s]Delete Thumbnails[/COLOR]"
+msgstr ""
+
+msgctxt "#32421"
+msgid "[COLOR %s]Speed Test[/COLOR]"
+msgstr ""
+
+msgctxt "#32422"
+msgid "[COLOR %s]Show Net Info[/COLOR]"
+msgstr ""
+
+msgctxt "#32423"
+msgid "[COLOR %s]Settings[/COLOR]"
+msgstr ""
+
+msgctxt "#32424"
+msgid "[COLOR %s]Mac:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32425"
+msgid "[COLOR %s]Internal IP: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32426"
+msgid "[COLOR %s]External IP:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32427"
+msgid "[COLOR %s]City:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32428"
+msgid "[COLOR %s]State:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32429"
+msgid "[COLOR %s]Country:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32430"
+msgid "[COLOR %s]ISP:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32432"
+msgid "[B][COLOR %s]Last Save:[/COLOR] [COLOR %s]%s[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32433"
+msgid "[B][COLOR %s]Back-Up Location: [COLOR %s]%s[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32434"
+msgid "[B][COLOR %s]Backup Tools:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32435"
+msgid "[COLOR %s] Build[/COLOR]"
+msgstr ""
+
+msgctxt "#32436"
+msgid "[COLOR %s] GUI[/COLOR]"
+msgstr ""
+
+msgctxt "#32437"
+msgid "[COLOR %s] Addon Pack[/COLOR]"
+msgstr ""
+
+msgctxt "#32438"
+msgid "[COLOR %s] Addon Data[/COLOR]"
+msgstr ""
+
+msgctxt "#32439"
+msgid "[COLOR %s] Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#32440"
+msgid "[B][COLOR %s]Restore Tools:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32441"
+msgid "[COLOR %s]Build/Pack[/COLOR]"
+msgstr ""
+
+msgctxt "#32442"
+msgid "[COLOR %s]GUI[/COLOR]"
+msgstr ""
+
+msgctxt "#32443"
+msgid "[COLOR %s]Addon Data[/COLOR]"
+msgstr ""
+
+msgctxt "#32444"
+msgid "[COLOR %s]Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#32445"
+msgid "[B][COLOR FFFF0000]Delete Tools:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32446"
+msgid "[COLOR %s]Clear Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#32447"
+msgid "[COLOR %s]Clear Back-ups[/COLOR]"
+msgstr ""
+
+msgctxt "#32448"
+msgid "[B][COLOR %s]Settings:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32450"
+msgid "[B][COLOR %s]Logging Tools[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32451"
+msgid "[COLOR %s][B]Errors in Log:[/B][/COLOR] %s"
+msgstr ""
+
+msgctxt "#32452"
+msgid "[COLOR %s]View Errors[/COLOR]"
+msgstr ""
+
+msgctxt "#32453"
+msgid "[COLOR %s]View Full Log[/COLOR]"
+msgstr ""
+
+msgctxt "#32454"
+msgid "[COLOR %s]Upload Full Log[/COLOR]"
+msgstr ""
+
+msgctxt "#32455"
+msgid "[B][COLOR %s]Addon Tools[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32456"
+msgid "[B][COLOR %s]Scan For:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32457"
+msgid "[COLOR %s]Broken Sources[/COLOR]"
+msgstr ""
+
+msgctxt "#32458"
+msgid "[COLOR %s]Broken Repositories[/COLOR]"
+msgstr ""
+
+msgctxt "#32459"
+msgid "[B][COLOR %s]Force / Fix:[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32460"
+msgid "[COLOR %s]Update Addons[/COLOR]"
+msgstr ""
+
+msgctxt "#32461"
+msgid "[COLOR %s]Enable Disabled Addons[/COLOR]"
+msgstr ""
+
+msgctxt "#32462"
+msgid "[B][COLOR %s]Delete: [/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32463"
+msgid "[COLOR %s]Delete Selected Addons[/COLOR]"
+msgstr ""
+
+msgctxt "#32464"
+msgid "[COLOR %s]All Addon Data[/COLOR]"
+msgstr ""
+
+msgctxt "#32465"
+msgid "[COLOR %s]Uninstalled Folders[/COLOR]"
+msgstr ""
+
+msgctxt "#32466"
+msgid "[COLOR %s]Empty Folders[/COLOR]"
+msgstr ""
+
+msgctxt "#32467"
+msgid "[B][COLOR %s]White List Tools: [/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32468"
+msgid "[COLOR %s]WhiteList: Edit[/COLOR]"
+msgstr ""
+
+msgctxt "#32469"
+msgid "[COLOR %s]WhiteList: View[/COLOR]"
+msgstr ""
+
+msgctxt "#32470"
+msgid "[COLOR %s]WhiteList: Clear[/COLOR]"
+msgstr ""
+
+msgctxt "#32471"
+msgid "[COLOR %s]WhiteList: Import[/COLOR]"
+msgstr ""
+
+msgctxt "#32472"
+msgid "[COLOR %s]WhiteList: Export[/COLOR]"
+msgstr ""
+
+msgctxt "#32473"
+msgid "[B][COLOR %s]Advanced Settings Tools[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32474"
+msgid "[COLOR %s]Quick Config[/COLOR]"
+msgstr ""
+
+msgctxt "#32475"
+msgid "[COLOR %s]Full Config[/COLOR]"
+msgstr ""
+
+msgctxt "#32476"
+msgid "[COLOR %s]Current Settings[/COLOR]"
+msgstr ""
+
+msgctxt "#32477"
+msgid "[COLOR %s]Delete Settings[/COLOR]"
+msgstr ""
+
+msgctxt "#32478"
+msgid "[COLOR %s]Version: [COLOR %s][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32479"
+msgid "Since this is your First Run of the Wizard, Would you like to Enable any of the following Settings?"
+msgstr ""
+
+msgctxt "#32480"
+msgid "Keep My Trakt"
+msgstr ""
+
+msgctxt "#32481"
+msgid "Keep My Real Debrid"
+msgstr ""
+
+msgctxt "#32482"
+msgid "Keep My Login Data"
+msgstr ""
+
+msgctxt "#32483"
+msgid "Keep My Profiles.xml"
+msgstr ""
+
+msgctxt "#32484"
+msgid "Keep My Favourites.xml"
+msgstr ""
+
+msgctxt "#32485"
+msgid "Keep My Repositories"
+msgstr ""
+
+msgctxt "#32486"
+msgid "Keep My Whitelist"
+msgstr ""
+
+msgctxt "#32487"
+msgid "Continue"
+msgstr ""
+
+msgctxt "#32488"
+msgid "[COLOR %s]Click [B][COLOR springgreen] - Yes - [/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32489"
+msgid "\nTo Erase Your Current Build, \nThen Install a Local or External Stored Build Back Up[/COLOR]"
+msgstr ""
+
+msgctxt "#32490"
+msgid "\nTo Erase Your Current Build, \nThen Fresh Install [COLOR %s]%s[/COLOR]!!"
+msgstr ""
+
+msgctxt "#32491"
+msgid "[COLOR %s]Do you wish to restore your"
+msgstr ""
+
+msgctxt "#32492"
+msgid "\nConfiguration to default settings?[/COLOR]"
+msgstr ""
+
+msgctxt "#32493"
+msgid "[B][COLOR FFFF0000]No, Cancel[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32494"
+msgid "[B][COLOR springgreen]Yes[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32495"
+msgid "[COLOR %s]To save changes you now need to force close Kodi, Press OK to force close Kodi[/COLOR]"
+msgstr ""
+
+msgctxt "#32496"
+msgid "Currently no build installed from %s.\n\nSelect 'Build Menu' to install a Community Build from us or 'Ignore' to never see this message again.\n\nThank you for choosing %s."
+msgstr ""
+
+msgctxt "#32497"
+msgid "Build Menu"
+msgstr ""
+
+msgctxt "#32498"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "#32499"
+msgid "\n[COLOR %s]Completed:[/COLOR] [COLOR %s]%s%s[/COLOR] [COLOR %s][Errors:[COLOR %s]%s[/COLOR]][/COLOR]"
+msgstr ""
+
+msgctxt "#32500"
+msgid "\n[COLOR %s]Would you like to view the errors?[/COLOR]"
+msgstr ""
+
+msgctxt "#32501"
+msgid "[B][COLOR FFFF0000]No Thanks[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32502"
+msgid "[B][COLOR FF00FF00]View Errors[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32503"
+msgid "Please enter a name for the %s zip"
+msgstr ""
+
+msgctxt "#32504"
+msgid "[COLOR %s]Do you want to include your addon_data folder?"
+msgstr ""
+
+msgctxt "#32505"
+msgid "\nThis contains [COLOR %s]ALL[/COLOR] addon settings including passwords but may also contain important information such as skin shortcuts. We recommend [COLOR %s]MANUALLY[/COLOR] removing the addon_data folders that aren't required."
+msgstr ""
+
+msgctxt "#32506"
+msgid "\n[COLOR %s]%s[/COLOR] addon_data is ignored[/COLOR]"
+msgstr ""
+
+msgctxt "#32507"
+msgid "[B][COLOR FF00FF00]Include data[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32508"
+msgid "[B][COLOR FFFF0000]Don't Include[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32509"
+msgid "[COLOR %s]Would you like to add the following skin folder to the GuiFix Zip File?[/COLOR]"
+msgstr ""
+
+msgctxt "#32510"
+msgid "[B][COLOR FF00FF00]Add Skin[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32511"
+msgid "[B][COLOR FFFF0000]Skip Skin[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32512"
+msgid "[COLOR %s]%s[/COLOR] [COLOR %s]backup successful:[/COLOR]"
+msgstr ""
+
+msgctxt "#32513"
+msgid "[COLOR %s]GuiFix backup successful:[/COLOR]"
+msgstr ""
+
+msgctxt "#32514"
+msgid "[COLOR %s]Error making Back Up directories:[/COLOR]"
+msgstr ""
+
+msgctxt "#32515"
+msgid "[COLOR %s]Are you sure you wish to create an Addon Pack?[/COLOR]"
+msgstr ""
+
+msgctxt "#32516"
+msgid "[B][COLOR FFFF0000]Cancel Backup[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32517"
+msgid "[B][COLOR FF00FF00]Create Pack[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32518"
+msgid "[COLOR %s]Are you sure you wish to backup the current build?[/COLOR]"
+msgstr ""
+
+msgctxt "#32519"
+msgid "[B][COLOR FF00FF00]Backup Build[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32520"
+msgid "[COLOR %s]We are unable to write to the current backup directory, would you like to change the location?[/COLOR]"
+msgstr ""
+
+msgctxt "#32521"
+msgid "[B][COLOR FF00FF00]Change Directory[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32522"
+msgid "[B][COLOR FFFF0000]Cancel[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32523"
+msgid "%s: Select the addons you wish to add to the zip."
+msgstr ""
+
+msgctxt "#32524"
+msgid "[COLOR %s]Are you sure you wish to backup the current addon_data?[/COLOR]"
+msgstr ""
+
+msgctxt "#32525"
+msgid "[B][COLOR FF00FF00]Backup Addon_Data[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32526"
+msgid "[COLOR %s]Local Restore: Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32527"
+msgid "[COLOR %s]External Restore: Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32528"
+msgid "Do you want to Restore your favorites?"
+msgstr ""
+
+msgctxt "#32529"
+msgid "[COLOR=red]COMPLETE[/COLOR]\nYour favorites are Restored."
+msgstr ""
+
+msgctxt "#32530"
+msgid "[COLOR %s]No Backup found![/COLOR]"
+msgstr ""
+
+msgctxt "#32531"
+msgid "Do you want to Back-up your favorites?"
+msgstr ""
+
+msgctxt "#32532"
+msgid "[COLOR=red]COMPLETE[/COLOR]\nYour favorites are Backed up."
+msgstr ""
+
+msgctxt "#32533"
+msgid "[COLOR %s]You have no Favourites![/COLOR]"
+msgstr ""
+
+msgctxt "#32534"
+msgid "Are you sure you want to PERMANENTLY delete your backup?!?!"
+msgstr ""
+
+msgctxt "#32535"
+msgid "[COLOR=red]COMPLETE[/COLOR]\nBacked up deleted."
+msgstr ""
+
+msgctxt "#32536"
+msgid "[COLOR %s]No Favourites to remove![/COLOR]"
+msgstr ""
+
+msgctxt "#32537"
+msgid "[COLOR=red]Yes[/COLOR]"
+msgstr ""
+
+msgctxt "#32538"
+msgid "[COLOR=green]No[/COLOR]"
+msgstr ""
+
+msgctxt "#32539"
+msgid "[COLOR %s]Backup Location: Empty[/COLOR]"
+msgstr ""
+
+msgctxt "#32540"
+msgid "--- Remove All Items ---"
+msgstr ""
+
+msgctxt "#32541"
+msgid "%s: Select the items to remove from 'MyBuilds'."
+msgstr ""
+
+msgctxt "#32542"
+msgid "[COLOR %s]Clean Up Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32543"
+msgid "[COLOR %s]Would you like to clean up all items in your 'My_Builds' folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32544"
+msgid "[B][COLOR FF00FF00]Clean Up[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32545"
+msgid "[B][COLOR FFFF0000]No Cancel[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32546"
+msgid "[COLOR %s]Removed Files: [COLOR %s]%s[/COLOR] / Folders:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32547"
+msgid "[COLOR %s]Would you like to remove [COLOR %s]%s[/COLOR] from 'My_Builds' folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32548"
+msgid "[COLOR %s]%s Removed![/COLOR]"
+msgstr ""
+
+msgctxt "#32549"
+msgid "[COLOR %s]Error Removing %s![/COLOR]"
+msgstr ""
+
+msgctxt "#32550"
+msgid "[COLOR %s]No Addons To Remove[/COLOR]"
+msgstr ""
+
+msgctxt "#32551"
+msgid "%s: Select the addons you wish to remove."
+msgstr ""
+
+msgctxt "#32552"
+msgid "[COLOR %s]Would you like to [COLOR %s]Force close[/COLOR] kodi or [COLOR %s]Reload Profile[/COLOR]?[/COLOR]"
+msgstr ""
+
+msgctxt "#32553"
+msgid "[B][COLOR FF00FF00]Reload Profile[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32554"
+msgid "[B][COLOR FFFF0000]Force Close[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32555"
+msgid "[COLOR red][B][REMOVE][/B][/COLOR] All Addon_Data"
+msgstr ""
+
+msgctxt "#32556"
+msgid "[COLOR red][B][REMOVE][/B][/COLOR] All Addon_Data for Uninstalled Addons"
+msgstr ""
+
+msgctxt "#32557"
+msgid "[COLOR red][B][REMOVE][/B][/COLOR] All Empty Folders in Addon_Data"
+msgstr ""
+
+msgctxt "#32558"
+msgid "[COLOR red][B][REMOVE][/B][/COLOR] %s Addon_Data"
+msgstr ""
+
+msgctxt "#32559"
+msgid "[COLOR green][B][PROTECTED][/B][/COLOR] %s"
+msgstr ""
+
+msgctxt "#32560"
+msgid "[COLOR red][B][REMOVE][/B][/COLOR] %s"
+msgstr ""
+
+msgctxt "#32561"
+msgid "No Addon data folder found."
+msgstr ""
+
+msgctxt "#32562"
+msgid "[COLOR %s]Are you sure you want to delete the addon:"
+msgstr ""
+
+msgctxt "#32563"
+msgid "\nName: [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32564"
+msgid "\nID: [COLOR %s]%s[/COLOR][/COLOR]"
+msgstr ""
+
+msgctxt "#32565"
+msgid "[B][COLOR FF00FF00]Remove Addon[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32566"
+msgid "[B][COLOR FFFF0000]Don't Remove[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32567"
+msgid "[COLOR %s]%s Removed[/COLOR]"
+msgstr ""
+
+msgctxt "#32568"
+msgid "[COLOR %s]Would you like to remove [COLOR %s]ALL[/COLOR] addon data stored in you Userdata folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32569"
+msgid "[B][COLOR FF00FF00]Remove Data[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32570"
+msgid "[COLOR %s]Remove Addon Data[/COLOR]"
+msgstr ""
+
+msgctxt "#32571"
+msgid "[COLOR %s]Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32572"
+msgid "[COLOR %s]Would you like to remove [COLOR %s]ALL[/COLOR] addon data stored in you Userdata folder for uninstalled addons?[/COLOR]"
+msgstr ""
+
+msgctxt "#32573"
+msgid "[COLOR %s]Clean up Uninstalled[/COLOR]"
+msgstr ""
+
+msgctxt "#32574"
+msgid "[COLOR %s]%s Folders(s) Removed[/COLOR]"
+msgstr ""
+
+msgctxt "#32575"
+msgid "[COLOR %s]Would you like to remove [COLOR %s]ALL[/COLOR] empty addon data folders in you Userdata folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32576"
+msgid "[COLOR %s]Remove Empty Folders[/COLOR]"
+msgstr ""
+
+msgctxt "#32577"
+msgid "[COLOR %s]Protected Plugin[/COLOR]"
+msgstr ""
+
+msgctxt "#32578"
+msgid "[COLOR %s]Not allowed to remove Addon_Data[/COLOR]"
+msgstr ""
+
+msgctxt "#32579"
+msgid "[COLOR %s]Would you also like to remove the addon data for:[/COLOR]"
+msgstr ""
+
+msgctxt "#32580"
+msgid "[COLOR %s]View Error Log[/COLOR]"
+msgstr ""
+
+msgctxt "#32581"
+msgid "[COLOR %s]No Log File Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32582"
+msgid "[B][COLOR FFFF0000]ERROR NUMBER %s:[/B][/COLOR]%s\n"
+msgstr ""
+
+msgctxt "#32583"
+msgid "[B][COLOR FFFF0000]Last Error in Log:[/B][/COLOR]%s\n"
+msgstr ""
+
+msgctxt "#32584"
+msgid "%s: Errors in Log"
+msgstr ""
+
+msgctxt "#32585"
+msgid "[COLOR %s]No Errors Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32586"
+msgid "Log File Does Not Exists!"
+msgstr ""
+
+msgctxt "#32587"
+msgid "%s: View Log Error"
+msgstr ""
+
+msgctxt "#32588"
+msgid "[COLOR %s]AdvancedSettings.xml not found[/COLOR]"
+msgstr ""
+
+msgctxt "#32589"
+msgid "[COLOR %s]AdvancedSettings.xml Removed![/COLOR]"
+msgstr ""
+
+msgctxt "#32590"
+msgid "[COLOR %s]No AdvancedSettings.xml Found[/COLOR]"
+msgstr ""
+
+msgctxt "#32591"
+msgid "[COLOR %s]No Sources.xml File Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32592"
+msgid "[COLOR %s]Scanning Sources for Broken links[/COLOR]"
+msgstr ""
+
+msgctxt "#32593"
+msgid "[COLOR %s]Checking [COLOR %s]%s[/COLOR]:[/COLOR]"
+msgstr ""
+
+msgctxt "#32594"
+msgid "[COLOR %s]%s[/COLOR][COLOR %s] Source(s) have been found Broken"
+msgstr ""
+
+msgctxt "#32595"
+msgid "\nWould you like to Remove all or choose one by one?[/COLOR]"
+msgstr ""
+
+msgctxt "#32596"
+msgid "[B][COLOR FF00FF00]Remove All[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32597"
+msgid "[B][COLOR FFFF0000]Choose to Delete[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32598"
+msgid "[COLOR %s]%s[/COLOR][COLOR %s] was reported as non working"
+msgstr ""
+
+msgctxt "#32599"
+msgid "[B][COLOR FF00FF00]Remove Source[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32600"
+msgid "[B][COLOR FFFF0000]Keep Source[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32601"
+msgid "[COLOR %s]Checking sources for broken paths has been completed"
+msgstr ""
+
+msgctxt "#32602"
+msgid "\nWorking: [COLOR %s]%s[/COLOR] | Kept: [COLOR %s]%s[/COLOR] | Removed: [COLOR %s]%s[/COLOR][/COLOR]"
+msgstr ""
+
+msgctxt "#32603"
+msgid "[COLOR %s]All Sources Are Working[/COLOR]"
+msgstr ""
+
+msgctxt "#32604"
+msgid "[COLOR %s]Checking Repositories...[/COLOR]"
+msgstr ""
+
+msgctxt "#32605"
+msgid "[COLOR %s]No Repositories Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32606"
+msgid "[COLOR %s]Checking: [/COLOR][COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32607"
+msgid "[COLOR %s]Enabling Addons Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32608"
+msgid "[COLOR %s]Below is a list of Repositories that did not resolve.  This does not mean that they are Depreciated, sometimes hosts go down for a short period of time.  Please do serveral scans of your repository list before removing a repository just to make sure it is broken.[/COLOR][CR][CR][COLOR %s]"
+msgstr ""
+
+msgctxt "#32609"
+msgid "%s: Bad Repositories"
+msgstr ""
+
+msgctxt "#32610"
+msgid "[COLOR %s]All Repositories Working![/COLOR]"
+msgstr ""
+
+msgctxt "#32611"
+msgid "[COLOR %s]Forcing Addon Updates[/COLOR]"
+msgstr ""
+
+msgctxt "#32612"
+msgid "-- Click here to Continue --"
+msgstr ""
+
+msgctxt "#32613"
+msgid "%s: Select the addons you wish to White List."
+msgstr ""
+
+msgctxt "#32614"
+msgid "[COLOR %s]%s Addons in White List[/COLOR]"
+msgstr ""
+
+msgctxt "#32615"
+msgid "Here is a list of your whitelist items, these items(along with dependencies) will not be removed when preforming a fresh start or the userdata overwritten in a build install.[CR][CR]"
+msgstr ""
+
+msgctxt "#32616"
+msgid "[COLOR %s]No items in White List[/COLOR]"
+msgstr ""
+
+msgctxt "#32617"
+msgid "[COLOR %s]Select the whitelist file to import[/COLOR]"
+msgstr ""
+
+msgctxt "#32618"
+msgid "[COLOR %s]Import Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32619"
+msgid "[COLOR %s]%s Item(s) Added[/COLOR]"
+msgstr ""
+
+msgctxt "#32620"
+msgid "[COLOR %s]Select where you wish to export the whitelist file[/COLOR]"
+msgstr ""
+
+msgctxt "#32621"
+msgid "[COLOR %s]Whitelist has been exported to:[/COLOR]"
+msgstr ""
+
+msgctxt "#32622"
+msgid "[COLOR %s]Whitelist Exported[/COLOR]"
+msgstr ""
+
+msgctxt "#32623"
+msgid "[COLOR %s]The location you selected isnt writable would you like to select another one?[/COLOR]"
+msgstr ""
+
+msgctxt "#32624"
+msgid "[B][COLOR FF00FF00]Change Location[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32626"
+msgid "[COLOR %s]Whitelist Export Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32627"
+msgid "[COLOR %s]You are about to close Kodi"
+msgstr ""
+
+msgctxt "#32628"
+msgid "\nWould you like to continue?[/COLOR]"
+msgstr ""
+
+msgctxt "#32629"
+msgid "[B][COLOR FFFF0000] No Cancel[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32630"
+msgid "[B][COLOR FF00FF00]Force Close Kodi[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32631"
+msgid "Force Close Kodi"
+msgstr ""
+
+msgctxt "#32632"
+msgid "[COLOR %s]WARNING: Sometimes Reloading the Profile causes Kodi to crash.  While Kodi is Reloading the Profile Please Do Not Press Any Buttons![/COLOR]"
+msgstr ""
+
+msgctxt "#32633"
+msgid "Do you want to enable all disabled addons?"
+msgstr ""
+
+msgctxt "#32634"
+msgid "All Addons Enabled"
+msgstr ""
+
+msgctxt "#32635"
+msgid "[COLOR %s]Are you sure you want to clear your whitelist?"
+msgstr ""
+
+msgctxt "#32636"
+msgid "\nThis process can't be undone.[/COLOR]"
+msgstr ""
+
+msgctxt "#32637"
+msgid "[B][COLOR FF00FF00]Yes Remove[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32638"
+msgid "[COLOR %s]Clear Whitelist Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32639"
+msgid "Select Device RAM Size"
+msgstr ""
+
+msgctxt "#32640"
+msgid "1GB (1st - 3rd gen, Lite Firestick)"
+msgstr ""
+
+msgctxt "#32641"
+msgid "1GB to 1.5GB (4k Firestick)"
+msgstr ""
+
+msgctxt "#32642"
+msgid "1.5GB to 2GB (Firebox, Cube, Sheild Tube)"
+msgstr ""
+
+msgctxt "#32643"
+msgid "2GB to 3GB RAM"
+msgstr ""
+
+msgctxt "#32644"
+msgid "3GB or more (Nvidia Shield Pro)"
+msgstr ""
+
+msgctxt "#32645"
+msgid "Advanced Settings Created.\nReboot Kodi for settings to take effect."
+msgstr ""
+
+msgctxt "#32646"
+msgid "[COLOR %s]Advanced Settings Configurator[/COLOR]"
+msgstr ""
+
+msgctxt "#32647"
+msgid "[COLOR %s]Video Cache Size[/COLOR]%s"
+msgstr ""
+
+msgctxt "#32648"
+msgid "[COLOR %s]Number of bytes used for buffering streams in memory.  When set to [COLOR %s]0[/COLOR] the cache will be written to disk instead of RAM.  Note: For the memory size set here, Kodi will require 3x the amount of RAM to be free. Setting this too high might cause Kodi to crash if it can't get enough RAM(1/3 of Free Memory: [COLOR %s]%s[/COLOR])[/COLOR]"
+msgstr ""
+
+msgctxt "#32649"
+msgid "[COLOR %s]New size:[/COLOR] [COLOR %s]%s MB[/COLOR]"
+msgstr ""
+
+msgctxt "#32650"
+msgid "[COLOR %s]Recommended:[/COLOR] [COLOR %s]%s MB[/COLOR]"
+msgstr ""
+
+msgctxt "#32651"
+msgid "[COLOR %s]CURL Timeout/CURL Low Speed[/COLOR]%s"
+msgstr ""
+
+msgctxt "#32652"
+msgid "[COLOR %s][B]curlclienttimeout[/B] is the time in seconds for how long it takes for libcurl connection will timeout and [B]curllowspeedtime[/B] is the time in seconds for libcurl to consider a connection lowspeed.  For slower connections set it to 20.[/COLOR]"
+msgstr ""
+
+msgctxt "#32653"
+msgid "[COLOR %s]New time:[/COLOR] [COLOR %s]%ss[/COLOR]"
+msgstr ""
+
+msgctxt "#32654"
+msgid "[COLOR %s]Recommended:[/COLOR] [COLOR %s]%ss[/COLOR]"
+msgstr ""
+
+msgctxt "#32655"
+msgid "[COLOR %s]Read Buffer Factor[/COLOR]%s"
+msgstr ""
+
+msgctxt "#32656"
+msgid "[COLOR %s]The value of this setting is a multiplier of the default limit. If Kodi is loading a typical bluray raw file at 36 Mbit/s, then a value of 2 will need at least 72 Mbit/s of network bandwidth. However, unlike with the RAM setting, you can safely increase this value however high you want, and Kodi won't crash.[/COLOR]"
+msgstr ""
+
+msgctxt "#32657"
+msgid "[COLOR %s]New value:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32658"
+msgid "[COLOR %s]Recommended:[/COLOR] [COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32659"
+msgid "[COLOR %s]Buffer Mode[/COLOR]%s"
+msgstr ""
+
+msgctxt "#32660"
+msgid "[COLOR %s]This setting will force Kodi to use a cache for all video files, including local network, internet, and even the local hard drive. Default value is 0 and will only cache videos that use internet file paths/sources.[/COLOR]"
+msgstr ""
+
+msgctxt "#32661"
+msgid "0: Buffer all internet filesystems"
+msgstr ""
+
+msgctxt "#32662"
+msgid "1: Buffer all filesystems"
+msgstr ""
+
+msgctxt "#32663"
+msgid "2: Only buffer true internet filesystems"
+msgstr ""
+
+msgctxt "#32664"
+msgid "3: No Buffer"
+msgstr ""
+
+msgctxt "#32665"
+msgid "Write File"
+msgstr ""
+
+msgctxt "#32666"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#32667"
+msgid "[COLOR %s]There is currently an active [COLOR %s]AdvancedSettings.xml[/COLOR], would you like to remove it and continue?[/COLOR]"
+msgstr ""
+
+msgctxt "#32668"
+msgid "[B][COLOR springgreen]Remove Settings[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32669"
+msgid "[B][COLOR red]Cancel Write[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32670"
+msgid "[COLOR %s]Starting test...[/COLOR]"
+msgstr ""
+
+msgctxt "#32671"
+msgid "[COLOR %s]Retrieving speedtest.net configuration...[/COLOR]"
+msgstr ""
+
+msgctxt "#32672"
+msgid "[COLOR %s]Selecting best server...[/COLOR]"
+msgstr ""
+
+msgctxt "#32673"
+msgid "[COLOR %s]Testing download speed...[/COLOR]"
+msgstr ""
+
+msgctxt "#32674"
+msgid "[COLOR %s]Testing upload speed...[/COLOR]"
+msgstr ""
+
+msgctxt "#32675"
+msgid "[COLOR %s]Getting share image...[/COLOR]"
+msgstr ""
+
+msgctxt "#32676"
+msgid "[COLOR %s]Test complete![/COLOR]"
+msgstr ""
+
+msgctxt "#32677"
+msgid "[COLOR %s]Clear __pycache__ Folders[/COLOR]"
+msgstr ""
+
+msgctxt "#32678"
+msgid "[COLOR %s]Would you like to remove all __pycache__ folders found in your addons folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32679"
+msgid "[COLOR %s]__pycache__ Cleared: [COLOR %s]%s[/COLOR] Folder(s) / [COLOR %s]%s[/COLOR] File(s)[/COLOR]"
+msgstr ""
+
+msgctxt "#32680"
+msgid "[B][COLOR FF00FF00]Delete[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32681"
+msgid "[B][COLOR FFFF0000]No, Cancel[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32682"
+msgid "%s: Builds"
+msgstr ""
+
+msgctxt "#32683"
+msgid "%s: Maintenance"
+msgstr ""
+
+msgctxt "#32684"
+msgid "%s: Backup/Restore"
+msgstr ""
+
+msgctxt "#32685"
+msgid "%s: Tools"
+msgstr ""
+
+msgctxt "#32686"
+msgid "[COLOR yellow]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32687"
+msgid "[COLOR lime][B]%s[/B][/COLOR]"
+msgstr ""
+
+msgctxt "#32688"
+msgid "RTL+: "
+msgstr ""
+
+msgctxt "#32689"
+msgid "Keep My RTL+ Data"
+msgstr ""
+
+msgctxt "#32690"
+msgid "Please Wait"
+msgstr ""
+
+msgctxt "#32691"
+msgid "Please Wait!"
+msgstr ""
+
+msgctxt "#32692"
+msgid "Please Wait..."
+msgstr ""
+
+msgctxt "#32693"
+msgid "[COLOR %s]Select DB File to Purge[/COLOR]"
+msgstr ""
+
+msgctxt "#32694"
+msgid "[COLOR %s]Purge Database[/COLOR]"
+msgstr ""
+
+msgctxt "#32695"
+msgid "[COLOR %s]Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32696"
+msgid "Loading video"
+msgstr ""
+
+msgctxt "#32697"
+msgid "<>\nPlease Wait\n<>"
+msgstr ""
+
+msgctxt "#32698"
+msgid "[COLOR %s]%s[/COLOR][COLOR %s]: Theme Backup[/COLOR]"
+msgstr ""
+
+msgctxt "#32699"
+msgid "[COLOR %s]Would you like to create a theme backup?[/COLOR]"
+msgstr ""
+
+msgctxt "#32700"
+msgid "Theme Backup"
+msgstr ""
+
+msgctxt "#32701"
+msgid "Cancelled!"
+msgstr ""
+
+msgctxt "#32702"
+msgid "[B][COLOR FF00FF00]Continue[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32703"
+msgid "[COLOR %s]Would you like to go through the Texture Files for?[/COLOR]"
+msgstr ""
+
+msgctxt "#32704"
+msgid "\n[COLOR %s]%s[/COLOR]"
+msgstr ""
+
+msgctxt "#32705"
+msgid "[B][COLOR FF00FF00]Add Textures[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32706"
+msgid "[B][COLOR FFFF0000]Skip Textures[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32707"
+msgid "[COLOR %s]Would you like to add the Texture File [COLOR %s]%s[/COLOR]?"
+msgstr ""
+
+msgctxt "#32708"
+msgid "\nfrom [COLOR %s]%s[/COLOR][/COLOR]"
+msgstr ""
+
+msgctxt "#32709"
+msgid "[COLOR %s]Would you like to go add the [COLOR %s]settings.xml[/COLOR] in [COLOR %s]/addon_data/[/COLOR] for?"
+msgstr ""
+
+msgctxt "#32710"
+msgid "[B][COLOR FF00FF00]Add Settings[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32711"
+msgid "[B][COLOR FFFF0000]Skip Settings[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32712"
+msgid "[COLOR %s]Would you like to go add the [COLOR %s]settings.xml[/COLOR] for [COLOR %s]script.skinshortcuts[/COLOR]?"
+msgstr ""
+
+msgctxt "#32713"
+msgid "[COLOR %s]Would you like to include a [COLOR %s]Backgrounds[/COLOR] folder?[/COLOR]"
+msgstr ""
+
+msgctxt "#32714"
+msgid "[B][COLOR FF00FF00]Yes Include[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32715"
+msgid "[B][COLOR FFFF0000]No Continue[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#32716"
+msgid "Select location of backgrounds"
+msgstr ""
+
+msgctxt "#32717"
+msgid "[COLOR %s]Would you like to include the [COLOR %s]%s[/COLOR]?[/COLOR]"
+msgstr ""
+
+msgctxt "#32718"
+msgid "[COLOR %s]Would you like to include any addons?[/COLOR]"
+msgstr ""
+
+msgctxt "#32719"
+msgid "[COLOR %s]Would you like to include the [COLOR %s]guisettings.xml[/COLOR]?[/COLOR]"
+msgstr ""
+
+msgctxt "#32720"
+msgid "[COLOR %s]%s[/COLOR][COLOR %s] theme zip failed:[/COLOR]"
+msgstr ""
+
+msgctxt "#32721"
+msgid "[COLOR %s]%s[/COLOR][COLOR %s] theme zip successful:[/COLOR]"
+msgstr ""
+
+msgctxt "#32722"
+msgid "[COLOR %s]Write Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32723"
+msgid "[COLOR %s]URL Not Working[/COLOR]"
+msgstr ""
+
+msgctxt "#32724"
+msgid "[COLOR %s]Auto Clean Up[/COLOR]"
+msgstr ""
+
+msgctxt "#32725"
+msgid "[COLOR %s]Fequency Now %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32726"
+msgid "[COLOR %s]Unabled to find build[/COLOR]"
+msgstr ""
+
+msgctxt "#32727"
+msgid "[COLOR %s]Build Zip Error: %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32728"
+msgid "[COLOR %s]Build Install: Invalid Zip Url![/COLOR]"
+msgstr ""
+
+msgctxt "#32729"
+msgid "[COLOR %s]Build Install: Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32730"
+msgid "[COLOR %s]Toggle Cache[/COLOR]"
+msgstr ""
+
+msgctxt "#32731"
+msgid "[COLOR %s]Invalid id: %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32732"
+msgid "[COLOR %s]View Log[/COLOR]"
+msgstr ""
+
+msgctxt "#32733"
+msgid "[COLOR %s]View Log Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32734"
+msgid "[COLOR %s]No Log File Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32735"
+msgid "[COLOR %s]Local Restore Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32736"
+msgid "[COLOR %s]External Restore Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32737"
+msgid "[COLOR %s]Import Data Error![/COLOR]"
+msgstr ""
+
+msgctxt "#32738"
+msgid "[COLOR %s]Save Data Import Failed[/COLOR]"
+msgstr ""
+
+msgctxt "#32739"
+msgid "[COLOR %s]Save Data Import Complete[/COLOR]"
+msgstr ""
+
+msgctxt "#32740"
+msgid "[COLOR %s]Fresh Install: Skin Swap Timed Out![/COLOR]"
+msgstr ""
+
+msgctxt "#32741"
+msgid "[COLOR %s]Fresh Install: Skin Swap Failed![/COLOR]"
+msgstr ""
+
+msgctxt "#32742"
+msgid "[COLOR %s]Fresh Start Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32743"
+msgid "[COLOR %s]Fresh Install: Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32744"
+msgid "[COLOR %s]Cache Cleared![/COLOR]"
+msgstr ""
+
+msgctxt "#32745"
+msgid "[COLOR %s]Packages Cleared![/COLOR]"
+msgstr ""
+
+msgctxt "#32746"
+msgid "[COLOR %s]Total Clean-Up Complete![/COLOR]"
+msgstr ""
+
+msgctxt "#32747"
+msgid "[COLOR %s]Notification: Not Formated Correctly[/COLOR]"
+msgstr ""
+
+msgctxt "#32748"
+msgid "[COLOR %s]Invalid URL for Notification[/COLOR]"
+msgstr ""
+
+msgctxt "#32749"
+msgid "[COLOR %s]Text Files Flushed![/COLOR]"
+msgstr ""
+
+msgctxt "#32750"
+msgid "[COLOR %s][COLOR %s]%d[/COLOR] Adult Addons %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32751"
+msgid "[COLOR %s]No Adult Addons Found[/COLOR]"
+msgstr ""
+
+msgctxt "#32752"
+msgid "[COLOR %s]Create QR[/COLOR]"
+msgstr ""
+
+msgctxt "#32753"
+msgid "[COLOR %s]Create QR Code Cancelled![/COLOR]"
+msgstr ""
+
+msgctxt "#32754"
+msgid "[COLOR %s]Not a Valid URL![/COLOR]"
+msgstr ""
+
+msgctxt "#32755"
+msgid "[COLOR %s]Convert Path Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32756"
+msgid "[COLOR %s]Convert Paths to Special: Complete![/COLOR]"
+msgstr ""
+
+msgctxt "#32757"
+msgid "[COLOR %s]Clear Crash Logs[/COLOR]"
+msgstr ""
+
+msgctxt "#32758"
+msgid "[COLOR %s]%s Crash Logs Removed[/COLOR]"
+msgstr ""
+
+msgctxt "#32759"
+msgid "[COLOR %s]Clear Crash Logs Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32760"
+msgid "[COLOR %s]No Crash Logs Found[/COLOR]"
+msgstr ""
+
+msgctxt "#32761"
+msgid "[COLOR %s]Hide Passwords[/COLOR]"
+msgstr ""
+
+msgctxt "#32762"
+msgid "[COLOR %s]%s items changed[/COLOR]"
+msgstr ""
+
+msgctxt "#32763"
+msgid "[COLOR %s]Unhide Passwords[/COLOR]"
+msgstr ""
+
+msgctxt "#32764"
+msgid "[COLOR %s]ASCII Check: Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32765"
+msgid "[COLOR %s]Ascii Check Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32766"
+msgid "[COLOR %s]ASCII Check: %s Removed / %s Failed.[/COLOR]"
+msgstr ""
+
+msgctxt "#32767"
+msgid "[COLOR %s]ASCII Check: None Found.[/COLOR]"
+msgstr ""
+
+msgctxt "#32768"
+msgid "[COLOR %s]Backup Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32769"
+msgid "[COLOR %s]External Restore: Invalid URL[/COLOR]"
+msgstr ""
+
+msgctxt "#32770"
+msgid "[COLOR %s]External Restore: Error Valid URL[/COLOR]"
+msgstr ""
+
+msgctxt "#32771"
+msgid "[COLOR %s]Whitelist Cleared[/COLOR]"
+msgstr ""
+
+msgctxt "#32772"
+msgid "[COLOR %s]Error Clearing Whitelist![/COLOR]"
+msgstr ""
+
+msgctxt "#32773"
+msgid "[COLOR %s]Clear Packages: Success![/COLOR]"
+msgstr ""
+
+msgctxt "#32774"
+msgid "[COLOR %s]Clear Packages: None Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32775"
+msgid "[COLOR %s]Clear Packages: Error![/COLOR]"
+msgstr ""
+
+msgctxt "#32776"
+msgid "[COLOR %s]Clear Packages: Success: %s[/COLOR]"
+msgstr ""
+
+msgctxt "#32777"
+msgid "[COLOR %s]Clear Cache: Removed %s Files[/COLOR]"
+msgstr ""
+
+msgctxt "#32778"
+msgid "[COLOR %s]%s: Skin Swap Timed Out![/COLOR]"
+msgstr ""
+
+msgctxt "#32779"
+msgid "[COLOR %s]Enabling Addons Complete![/COLOR]"
+msgstr ""
+
+msgctxt "#32780"
+msgid "[COLOR %s]Purge Database[/COLOR]"
+msgstr ""
+
+msgctxt "#32781"
+msgid "[COLOR %s]%s Complete[/COLOR]"
+msgstr ""
+
+msgctxt "#32782"
+msgid "[COLOR %s]Clear Thumbs: %s Files / %s MB[/COLOR]!"
+msgstr ""
+
+msgctxt "#32783"
+msgid "[COLOR %s]Clear Thumbs: None Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32785"
+msgid "[COLOR %s]%s Data: Removed![/COLOR]"
+msgstr ""
+
+msgctxt "#32786"
+msgid "[COLOR %s]%s Data: Saved![/COLOR]"
+msgstr ""
+
+msgctxt "#32787"
+msgid "[COLOR %s]%s Data: Not Registered![/COLOR]"
+msgstr ""
+
+msgctxt "#32788"
+msgid "[COLOR %s]%s: Restored![/COLOR]"
+msgstr ""
+
+msgctxt "#32789"
+msgid "[COLOR %s]Addon Data: Cleared![/COLOR]"
+msgstr ""
+
+msgctxt "#32790"
+msgid "[COLOR %s]%s: Authorized![/COLOR]"
+msgstr ""
+
+msgctxt "#32791"
+msgid "%s Data: [COLOR red]Not Found![/COLOR]"
+msgstr ""
+
+msgctxt "#32792"
+msgid "[COLOR %s]Skin Swap Timed Out![/COLOR]"
+msgstr ""
+
+msgctxt "#32793"
+msgid "[COLOR %s]Extract Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32794"
+msgid "[COLOR %s]Unknown Sources:[/COLOR] [COLOR %s]Enabled[/COLOR]"
+msgstr ""
+
+msgctxt "#32795"
+msgid "[COLOR %s]Download Cancelled[/COLOR]"
+msgstr ""
+
+msgctxt "#32796"
+msgid "YouTube: "
+msgstr ""
+
+msgctxt "#32797"
+msgid "Keep My YouTube Data"
+msgstr ""
+
+msgctxt "#32798"
+msgid "XShip: "
+msgstr ""
+
+msgctxt "#32799"
+msgid "Keep My XShip Data"
+msgstr ""
+
+msgctxt "#32800"
+msgid "XStream: "
+msgstr ""
+
+msgctxt "#32801"
+msgid "Keep My XStream Data"
+msgstr ""
+
+msgctxt "#32802"
+msgid "XVault: "
+msgstr ""
+
+msgctxt "#32803"
+msgid "Keep My XVault Data"
+msgstr ""
+
+msgctxt "#32804"
+msgid "Size"
+msgstr ""
+
+msgctxt "#32805"
+msgid "Speed"
+msgstr ""
+
+msgctxt "#32806"
+msgid "ETA"
+msgstr ""
+
+msgctxt "#32807"
+msgid "Downloading"
+msgstr ""
+
+msgctxt "#32808"
+msgid "Extracting — please wait…"
+msgstr ""
+
+msgctxt "#32809"
+msgid "File"
+msgstr ""
+
+msgctxt "#32810"
+msgid "Files"
+msgstr ""
+
+msgctxt "#32811"
+msgid "Build Downloading"
+msgstr ""
+
+msgctxt "#32812"
+msgid "Build Installing"
+msgstr ""
+
+msgctxt "#32813"
+msgid "Errors"
+msgstr ""
+
+msgctxt "#32814"
+msgid "Build Install Complete!"
+msgstr ""
+
+msgctxt "#32815"
+msgid "Force Closing Kodi!"
+msgstr ""

@@ -1,0 +1,94 @@
+=============================================================
+  TiTanX Lab GUI Wizard
+  Credits & Acknowledgements
+=============================================================
+
+Current Maintainer
+------------------
+Eragon
+  TiTanX Lab Edition — rebuild, optimization, and ongoing
+  development. New branding, bug fixes, custom progress dialog,
+  binary restore, addon activation and more.
+
+
+Foundation & Original Development
+----------------------------------
+Surfacingx
+  Creator of the original GUI Wizard. None of this exists without
+  the work that was done first.
+
+FTG (Fire TV Guru)
+  PyXBMCt layout, Kodi 18 zip fix (zlib), foundational FTG mods
+  that became core to the wizard's identity.
+
+Slam / Funsterbe
+  Continued development and keeping the wizard alive through
+  multiple Kodi versions and Python migrations.
+
+
+Specific Contributions
+-----------------------
+][NT3L][G3NC][
+  Force Close fix, original APK install foundation
+
+Sean Poyser
+  YouTube module
+
+EchoCoder
+  Help with Addons27.db
+
+MetalKettle
+  Original speed test code
+
+Barroni
+  Artwork for Advanced Settings Auto Configurator
+
+WhufcLee, OpenEleq, Midraal
+  Various coding help
+
+Kodi Team
+  Kodi Log Uploader (added support for forks and email log url)
+
+TiTan Simpel
+  Binary restore with auto-click and addon activation logic
+
+
+Special Thanks
+--------------
+The TiTanX Lab community — builders, skinners and content
+creators who keep Kodi alive through the push-back and the
+praise alike. You know who you are.
+
+The 3rd-party Kodi development community — for the continuous
+work on addons, repositories and builds that make this
+wizard useful.
+
+
+TiTanX Lab GUI Wizard Improvements
+------------------------------------
+- Custom progress dialog (skin-independent, always visible)
+- Percentage display during download
+- Direct binary restore with auto-click after install
+- Addon activation (enable_addons) after build install
+- Reliable Kodi close dialog after installation
+- ADDONTITLE_PLAIN for all dialog title bars
+- All bare excepts replaced with proper exception handling
+- Duplicate code removed (safe_filename helper)
+- Dead code and effectless globals removed
+- KodiVer() updated for Kodi 22 support
+- New addon ID: plugin.program.TiTanX_LAB-GUIWizard
+- New branding: TiTanX Lab GUI Wizard
+  (TiTan silver · X lime · Lab dimgray · GUI Wizard white)
+
+
+Open Source Code Citations
+--------------------------
+- PyXBMCt by romanvm
+    https://github.com/romanvm/script.module.pyxbmct
+    License: GPL v3
+
+- repository.biyik by hbiyik
+    https://github.com/hbiyik/repository.biyik
+    License: see repository
+
+Please see the original repositories for full license details.

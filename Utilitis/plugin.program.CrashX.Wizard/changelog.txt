@@ -1,0 +1,50 @@
+=============================================================
+  Omega GUI Wizard: Phoenix
+  A continuation of work too good to let fade away.
+=============================================================
+
+This program is not a replacement for what came before.
+It is the next chapter — built on the foundation that Surfacingx,
+FTG, Slam, Funsterbe, and a long line of coders poured their time
+into, kept alive through Kodi version after Kodi version, and held
+together with real care even when life made it hard to keep up.
+
+To everyone who carried it this far: thank you. This is, and always
+will be, yours. Grateful for the opportunity — and honored to be
+even a small part of what all of you built and so freely shared.
+
+
+-------------------------------------------------------------
+  Release History — A Rebirth
+-------------------------------------------------------------
+
+    v0.0.2  (released August 15, 2026)  Localization & Fixes
+  - Full German (de_de) and English (en_gb) strings.po added —
+    settings.xml, main menu, GUI window, dialogs, and error
+    messages now fully translated
+  - New: checkBinary() protects against wrong-architecture
+    binary addons (e.g. inputstream) after a build install
+  - Fixed: Maintenance page stayed blank on Windows (storage
+    size parsing crash)
+  - Fixed: Mac/IP fields stuck on "Busy" under non-English
+    Kodi languages
+  - Geo-IP lookup made more reliable (switched primary
+    provider, added fallback + validation)
+  - Fixed: missing DP.close() left the progress dialog stuck
+    after an Addon Pack backup
+  - New: __pycache__ cleanup button in Maintenance; build
+    backups now skip __pycache__ folders automatically
+  - Progress bar color now configurable via
+    resources/art/progressbar_color.json (no image editing
+    needed)
+  - New color scheme: lime / cyan / orangered replacing the
+    old blue accents
+  - Active main tab now highlighted lime and stays visible
+    while navigating submenus
+  - New: RTL+ login support with its own First-Run checkbox
+    (independent of the general "Keep Login Data" toggle)
+
+-------------------------------------------------------------
+For the complete pre-release and prior version history, see
+changelog_history.txt in the wizard's root folder.
+-------------------------------------------------------------

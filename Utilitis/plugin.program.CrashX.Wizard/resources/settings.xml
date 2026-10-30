@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32001">
+		<setting type="lsep" label="32013"/>
+		<setting id="buildname" type="text" label="32014" enable="false" default=""/>
+		<setting id="buildversion" type="text" label="32015" enable="false" default=""/>
+		<setting id="buildtheme" type="text" label="32016" enable="false" default=""/>
+		<setting id="latestversion" type="text" label="32017" enable="false" default=""/>
+		<setting id="lastbuildcheck" type="text" label="32018" enable="false" default=""/>
+		<setting id="disableupdate" type="bool" label="32019" default="false"/>
+		<setting id="installmethod" type="enum" label="32020" lvalues="32136|32137|32138" default="2" enable="!eq(-4,false)"/>
+		<setting type="lsep" label="32021"/>
+		<setting id="seperate" type="bool" label="32022" default="false"/>
+		<setting id="show21" type="bool" label="32023" default="true"/>
+		<setting id="show20" type="bool" label="32024" default="true"/>
+		<setting id="show19" type="bool" label="32025" default="true"/>
+		<setting id="showmaint" type="bool" label="32026" default="true"/>
+		<setting id="installed" type="bool" label="32027" visible="false" default="false" />
+		<setting id="extract" type="text" label="32028" visible="false" default="100" />
+		<setting id="errors" type="text" label="32029" visible="false" default="" />
+		<setting id="defaultskin" type="text" label="32030" enable="false" default="" visible="false"/>
+		<setting id="defaultskinname" type="text" label="32031" enable="false" default="" visible="false"/>
+		<setting id="defaultskinignore" type="bool" label="32032" enable="false" default="false" visible="false"/>
+		<setting id="default.enablerssfeeds" type="text" label="32033" enable="false" default="" visible="false"/>
+		<setting id="default.font" type="text" label="32034" enable="false" default="" visible="false"/>
+		<setting id="default.rssedit" type="text" label="32035" enable="false" default="" visible="false"/>
+		<setting id="default.skincolors" type="text" label="32036" enable="false" default="" visible="false"/>
+		<setting id="default.skintheme" type="text" label="32037" enable="false" default="" visible="false"/>
+		<setting id="default.skinzoom" type="text" label="32038" enable="false" default="" visible="false"/>
+		<setting id="default.soundskin" type="text" label="32039" enable="false" default="" visible="false"/>
+		<setting id="default.startupwindow" type="text" label="32040" enable="false" default="" visible="false"/>
+		<setting id="default.stereostrength" type="text" label="32041" enable="false" default="" visible="false"/>
+		<setting id="default.addonupdate" type="text" label="32042" enable="false" default="" visible="false"/>
+		<setting id="pvrclient" type="text" label="32043" enable="false" default="" visible="false"/>
+	</category>
+
+	<category label="32002">
+		<setting type="lsep" label="32044"/>
+		<setting id="path" type="folder" label="32045" default=""/>
+		<setting id="rompath" type="folder" label="32046" default=""/>
+		<setting type="lsep" label="32047"/>
+		<setting id="clearcache" type="bool" label="32048" default="false"/>
+		<setting id="autoclean" type="bool" label="32049" default="false"/>
+		<setting id="clearpackages" type="bool" label="32050" default="false" enable="!eq(-1,false)"/>
+		<setting id="clearthumbs" type="bool" label="32051" default="false" enable="!eq(-2,false)"/>
+		<setting id="autocleanfeq" type="number" label="32052" default="7" enable="!eq(-3,false)"/>
+		<setting id="nextautocleanup" type="text" label="32053" enable="false" default="" visible="false"/>
+		<setting type="lsep" label="32054" />
+		<setting id="filesize_alert" type="slider" label="32055" default="200" range="25,25,500" option="int" />
+		<setting type="lsep" label="32056" />
+		<setting id="filesizethumb_alert" type="slider" label="32055" default="500" range="100,50,1500" option="int" />
+		<setting type="lsep" label="32057"/>
+		<setting id="email" type="text" label="32058" />
+		<setting id="oldlog" type="bool" label="32059" default="false"/>
+		<setting id="wizlog" type="bool" label="32060" default="false"/>
+		<setting id="crashlog" type="bool" label="32061" default="false"/>
+		<setting type="lsep" label="32062"/>
+		<setting id="includevideo" type="bool" label="32063" default="false"/>
+		<setting id="includeall" type="bool" label="32064" default="true" enable="!eq(-1,false)" visible="!eq(-1,false)"/>
+	</category>
+
+	<category label="32003">
+		<setting type="lsep" label="32065"/>
+		<setting id="keepfavourites" type="bool" label="32066" default="false"/>
+		<setting id="favouriteslastsave" type="text" label="32067" enable="true" default=""/>
+		<setting id="keepsources" type="bool" label="32068" default="false"/>
+		<setting id="keepprofiles" type="bool" label="32069" default="false"/>
+		<setting id="keepadvanced" type="bool" label="32070" default="false"/>
+		<setting id="keeprepos" type="bool" label="32071" default="false"/>
+		<setting id="keepsuper" type="bool" label="32072" default="false"/>
+		<setting id="keepwhitelist" type="bool" label="32073" default="false"/>		
+	</category>
+
+	<category label="32004">
+		<setting type="lsep" label="32074"/>
+		<setting id="keeptrakt" type="bool" label="32075" default="false"/>
+		<setting id="trakt" type="text" label="32076" enable="false" default=""/>
+		<setting id="traktlastsave" type="text" label="32077" enable="false" default=""/>
+	</category>
+
+	<category label="32005">
+		<setting type="lsep" label="32078"/>
+		<setting id="keepdebrid" type="bool" label="32079" default="false"/>
+		<setting id="urlresolver" type="text" label="32080" enable="false" default=""/>
+		<setting id="debridlastsave" type="text" label="32081" enable="false" default=""/>
+	</category>
+
+	<category label="32006">
+		<setting type="lsep" label="32082"/>
+		<setting id="keeppremiumize" type="bool" label="32083" default="false"/>
+		<setting id="premiumizelastsave" type="text" label="32084" enable="false" default=""/>
+	</category>
+
+	<category label="32007">
+		<setting type="lsep" label="32085"/>
+		<setting id="keepalldebrid" type="bool" label="32086" default="false"/>
+		<setting id="alldebridlastsave" type="text" label="32087" enable="false" default=""/>
+	</category>
+
+	<category label="32008">
+		<setting type="lsep" label="32088"/>
+		<setting id="keeptorbox" type="bool" label="32089" default="false"/>
+		<setting id="torboxlastsave" type="text" label="32090" enable="false" default=""/>
+	</category>
+
+	<category label="32009">
+		<setting type="lsep" label="32091"/>
+		<setting id="keeplinksnappy" type="bool" label="32092" default="false"/>
+		<setting id="linksnappylastsave" type="text" label="32093" enable="false" default=""/>
+	</category>
+
+	<category label="32010">
+		<setting id="keeprtlplus" type="bool" label="32689" default="false"/>
+		<setting id="keepxship" type="bool" label="32799" default="false"/>
+		<setting id="keepxstream" type="bool" label="32801" default="false"/>
+		<setting id="keepxvault" type="bool" label="32803" default="false"/>
+		<setting id="keepyoutube" type="bool" label="32797" default="false"/>
+		<setting type="lsep" label="32094"/>
+		<setting id="keeplogin" type="bool" label="32095" default="false"/>
+		<setting type="lsep" label="32096"/>
+		<setting id="loginrtlplus" type="text" label="32688" enable="false" default=""/>
+		<setting id="loginxship" type="text" label="32798" enable="false" default=""/>
+		<setting id="loginxstream" type="text" label="32800" enable="false" default=""/>
+		<setting id="loginxvault" type="text" label="32802" enable="false" default=""/>
+		<setting id="loginyoutube" type="text" label="32796" enable="false" default=""/>
+		<setting id="loginsportsaccess" type="text" label="32097" enable="false" default=""/>
+		<setting id="loginsmoothstreams" type="text" label="32098" enable="false" default=""/>
+		<setting id="loginflawless" type="text" label="32099" enable="false" default=""/>
+		<setting id="loginotttv" type="text" label="32100" enable="false" default=""/>
+		<setting id="loginsportsmania" type="text" label="32101" enable="false" default=""/>
+		<setting id="loginsportsnationhd" type="text" label="32102" enable="false" default=""/>
+		<setting id="loginultimatemania" type="text" label="32103" enable="false" default=""/>
+		<setting id="loginoverlord" type="text" label="32104" enable="false" default=""/>
+		<setting id="loginxtreamcodes" type="text" label="32105" enable="false" default=""/>
+		<setting type="lsep" label="32106"/>
+		<setting id="logintvportal" type="text" label="32107" enable="false" default=""/>
+		<setting id="loginivue" type="text" label="32108" enable="false" default=""/>
+		<setting id="loginontapptv" type="text" label="32109" enable="false" default=""/>
+		<setting type="lsep" label="32110"/>
+		<setting id="logintotalinstaller" type="text" label="32111" enable="false" default=""/>
+		<setting id="loginopensub" type="text" label="32112" enable="false" default=""/>
+		<setting id="loginvpnicity" type="text" label="32113" enable="false" default=""/>
+		<setting id="loginlastsave" type="text" label="32114" enable="false" default=""/>
+	</category>
+
+	<category label="32011">
+		<setting id="developer" type="bool" label="32115" enable="true" default=""/>
+		<setting id="adult" type="bool" label="32116" enable="true" default="false"/>
+		<setting id="auto-view" type="bool" label="32117" default="true"/>
+		<setting id="viewType" type="number" label="32118" default="50" enable="!eq(-1,false)"/>
+		<setting type="lsep" label="32119"/>
+		<setting id="notify" type="bool" label="32120" />
+		<setting id="noteid" type="text" label="32121" visible="false" />
+		<setting id="notedismiss" type="bool" label="32122" visible="false" />
+	</category>
+
+	<category label="32012">
+		<setting type="lsep" label="32123"/>
+		<setting id="addon_debug" type="bool" label="32124" enable="true" default="true"/>
+		<setting type="lsep" visible="!eq(-1,false)" label="32125"/>
+		<setting type="lsep" visible="!eq(-2,false)" label="32126"/>
+		<setting type="lsep" visible="!eq(-3,false)" label="32127"/>
+		<setting id="debuglevel" type="enum" label="32128" visible="!eq(-4,false)" lvalues="32139|32140|32141" default="2"/>
+		<setting id="wizardlog" type="bool" label="32129" visible="!eq(-5,false)" enable="true" default="true"/>
+		<setting id="autocleanwiz" type="bool" label="32130" visible="!eq(-6,false)" enable="!eq(-1,false)" default="true"/>
+		<setting id="wizlogcleanby" type="enum" label="32131" visible="!eq(-1,false)" lvalues="32142|32143|32144" default="1"/>
+		<setting id="wizlogcleandays" type="enum" label="32132" visible="eq(-1,0)+!eq(-2,false)" lvalues="32145|32146|32147|32148" default="2"/>
+		<setting id="wizlogcleansize" type="enum" label="32133" visible="eq(-2,1)+!eq(-3,false)" lvalues="32149|32150|32151|32152|32153|32154" default="1"/>
+		<setting id="wizlogcleanlines" type="enum" label="32134" visible="eq(-3,2)+!eq(-4,false)" values="100|200|300|400|500" default="2"/>
+		<setting id="nextcleandate" type="text" label="32135" visible="false" default=""/>
+	</category>
+</settings>
