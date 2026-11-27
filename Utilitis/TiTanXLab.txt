@@ -98,7 +98,7 @@ adult="No"
 info="http://"
 description="CrashX Box Gold2"
 
-name="CrashX Gold2"
+name="CrashX KodiG2"
 version="1.5"
 url="https://ia601504.us.archive.org/5/items/kodi_G2/KodiG2.zip"
 minor="http://"
